@@ -82,7 +82,7 @@ Por meio de **mini-projetos práticos incrementais** e um **projeto final em equ
 
 ### 🔗 Links Importantes
 
-- **Planejamento 2026.1:** [📅 Cronograma Detalhado de Aulas](./PLANEJAMENTO_2026_1.md)
+- **Planejamento 2026.1:** [📅 Cronograma Detalhado de Aulas](./PLANEJAMENTO.md)
 - **Plano de Ensino:** [📄 Plano Completo](./docs/Plano_de_Ensino.md)
 - **Código de Conduta:** [⚖️ Uso Ético de IA](./docs/Codigo_de_Conduta.md)
 - **Canal Discord:** [💬 Comunidade da Disciplina](#) *(em breve)*
@@ -309,7 +309,7 @@ Aulas 33-36 (2 sem) → Projeto: Movimento Ressonância (Validação)
   - **Aula 34:** Pesquisador acadêmico (avaliação de sistemas de IA)
 - 📊 **4 Checkpoints** de avaliação
 
-> 📅 **Cronograma completo:** Veja o [Planejamento Detalhado 2026.1](./PLANEJAMENTO_2026_1.md)
+> 📅 **Cronograma completo:** Veja o [Planejamento Detalhado do Semestre corrente](./PLANEJAMENTO.md)
 
 ---
 
@@ -413,7 +413,7 @@ esaia/
 2. **👀 Watch** para receber notificações de mudanças
 3. **📚 Leia** o [Plano de Ensino](./docs/Plano_de_Ensino.md) completo
 4. **⚖️ Assine** o [Código de Conduta](./docs/Codigo_de_Conduta.md) na primeira semana
-5. **📅 Acompanhe** o [Planejamento 2026.1](./PLANEJAMENTO_2026_1.md) semanalmente
+5. **📅 Acompanhe** o [Planejamento do Semestre Corrente](./PLANEJAMENTO.md) semanalmente
 6. **💬 Participe** do Discord/Slack da turma
 7. **🔍 Explore** os materiais das aulas antes de cada encontro
 8. **🤝 Colabore** com sua equipe no projeto final
