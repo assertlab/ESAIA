@@ -21,9 +21,9 @@
 | Fase | Aulas | Período | Tema Principal |
 |------|-------|---------|----------------|
 | **[Fase 0](#-fase-0-nivelamento-aula-0)** | Aula 0 | Pré-semestre | 🔧 Nivelamento |
-| **[Fase 1](#-fase-1-fundamentos-aulas-1-7)** | 1-7 | Semanas 1-4 | 📚 Fundamentos + Mini-Projeto 1 |
-| **[Fase 2](#-fase-2-development--testing-aulas-8-14)** | 8-14 | Semanas 5-8 | 💻 Development & Testing + Mini-Projeto 2 |
-| **[Fase 3](#-fase-3-maintenance--exposição-aulas-15-21)** | 15-21 | Semanas 9-12 | 🔄 Maintenance + Movimento Exposição |
+| **[Fase 1](#-fase-1-fundamentos-aulas-1-7)** | 01-07 | Semanas 01-04 | 📚 Fundamentos + Mini-Projeto 1 |
+| **[Fase 2](#-fase-2-development--testing-aulas-8-14)** | 08-14 | Semanas 05-08 | 💻 Development & Testing + Mini-Projeto 2 |
+| **[Fase 3](#-fase-3-maintenance--exposição-aulas-15-21)** | 15-21 | Semanas 09-12 | 🔄 Maintenance + Movimento Exposição |
 | **[Fase 4](#-fase-4-composição-aulas-22-26)** | 22-26 | Semanas 13-14 | 🎨 Movimento Composição |
 | **[Fase 5](#-fase-5-ensaio-aulas-27-32)** | 27-32 | Semanas 15-17 | 🔨 Movimento Ensaio |
 | **[Fase 6](#-fase-6-ressonância-aulas-33-36)** | 33-36 | Semanas 18-19 | 📊 Movimento Ressonância |
@@ -41,11 +41,11 @@
 | Sem | Data Seg | Data Qua | Aulas | Tema | Destaque |
 |-----|----------|----------|-------|------|----------|
 | 0 | - | - | 0 | Nivelamento | 🔧 Pré-semestre |
-| 1 | DD/MM | DD/MM | 1-2 | Intro + LLMs | - |
-| 2 | DD/MM | DD/MM | 3-4 | Requirements | - |
-| 3 | DD/MM | DD/MM | 5-6 | Architecture | - |
-| 4 | DD/MM | DD/MM | 7-8 | CP Mini-Projeto 1 + Dev | ✅ Checkpoint |
-| 5 | DD/MM | DD/MM | 9-10 | Testing + CI/CD | - |
+| 1 | DD/MM | DD/MM | 01-02 | Intro + LLMs | - |
+| 2 | DD/MM | DD/MM | 03-04 | Requirements | - |
+| 3 | DD/MM | DD/MM | 05-06 | Architecture | - |
+| 4 | DD/MM | DD/MM | 07-08 | CP Mini-Projeto 1 + Dev | ✅ Checkpoint |
+| 5 | DD/MM | DD/MM | 09-10 | Testing + CI/CD | - |
 | 6 | DD/MM | DD/MM | 11-12 | Palestra + Maintenance | 🎤 Palestra |
 | 7 | DD/MM | DD/MM | 13-14 | Bugs + CP Mini-Projeto 2 | ✅ Checkpoint |
 | 8 | DD/MM | DD/MM | 15-16 | Evolution + Kick-off | - |
@@ -77,7 +77,7 @@
 ## 🔧 FASE 0: Nivelamento (Aula 0)
 
 <details>
-<summary><h3>📅 Aula 0 - Nivelamento e Setup de Ambiente</h3></summary>
+<summary><h3>📅 Aula 00 - Nivelamento e Setup de Ambiente</h3></summary>
 
 **Data:** DD/MM/2026 - Pré-Semestre | **Semana:** 0
 
@@ -103,12 +103,12 @@ Tutorial e documentação fornecidos
 
 ---
 
-## 📚 FASE 1: Fundamentos (Aulas 1-7)
+## 📚 FASE 1: Fundamentos (Aulas 01-07)
 
 **Semanas 1-4 | Requirements & Design + Mini-Projeto 1**
 
 <details>
-<summary><h3>📅 Aula 1 - Introdução à Engenharia de Software Assistida por IA</h3></summary>
+<summary><h3>📅 Aula 01 - Introdução à Engenharia de Software Assistida por IA</h3></summary>
 
 **Data:** DD/MM/2026 - Segunda | **Semana:** 1
 
@@ -133,7 +133,7 @@ Meira (2024) - Seção 1; Fan et al. (2023); Russell & Norvig (2020) - Cap. 1; G
 </details>
 
 <details>
-<summary><h3>📅 Aula 2 - Modelos de Linguagem e IA Generativa na ES</h3></summary>
+<summary><h3>📅 Aula 02 - Modelos de Linguagem e IA Generativa na ES</h3></summary>
 
 **Data:** DD/MM/2026 - Quarta | **Semana:** 1
 
@@ -158,7 +158,7 @@ Fan et al. (2023) - Seção sobre LLMs; Wong et al. (2023); Hou et al. (2024)
 </details>
 
 <details>
-<summary><h3>📅 Aula 3 - Coleta de Requisitos e Análise Assistida por IA</h3></summary>
+<summary><h3>📅 Aula 03 - Coleta de Requisitos e Análise Assistida por IA</h3></summary>
 
 **Data:** DD/MM/2026 - Segunda | **Semana:** 2
 
@@ -183,7 +183,7 @@ Zhao et al. (2021); Luitel et al. (2023); Meira (2024) - Seção 2.1
 </details>
 
 <details>
-<summary><h3>📅 Aula 4 - Priorização e Design de Cenários com IA</h3></summary>
+<summary><h3>📅 Aula 04 - Priorização e Design de Cenários com IA</h3></summary>
 
 **Data:** DD/MM/2026 - Quarta | **Semana:** 2
 
@@ -208,7 +208,7 @@ Salminen et al. (2022); Zhang et al. (2023); Meira (2024) - Seções 2.2, 2.3, 2
 </details>
 
 <details>
-<summary><h3>📅 Aula 5 - Arquitetura de Software e Design Assistido por IA</h3></summary>
+<summary><h3>📅 Aula 05 - Arquitetura de Software e Design Assistido por IA</h3></summary>
 
 **Data:** DD/MM/2026 - Segunda | **Semana:** 3
 
@@ -233,7 +233,7 @@ Belzner (2023); Venters et al. (2018); Meira (2024) - Seção 3.1; C4 Model docu
 </details>
 
 <details>
-<summary><h3>📅 Aula 6 - Otimização de Arquitetura e Refatoração com IA</h3></summary>
+<summary><h3>📅 Aula 06 - Otimização de Arquitetura e Refatoração com IA</h3></summary>
 
 **Data:** DD/MM/2026 - Quarta | **Semana:** 3
 
@@ -258,7 +258,7 @@ Hakimi et al. (2023); Vijayvergiya et al. (2024); Meira (2024) - Seção 3.2
 </details>
 
 <details>
-<summary><h3>✅ Aula 7 - Checkpoint Mini-Projeto 1: Requirements & Design com IA</h3></summary>
+<summary><h3>✅ Aula 07 - Checkpoint Mini-Projeto 1: Requirements & Design com IA</h3></summary>
 
 **Data:** DD/MM/2026 - Segunda | **Semana:** 4
 
@@ -289,7 +289,7 @@ Material das Aulas 1-6; SWEBOK
 **Semanas 5-8 | Codificação, Testes e DevOps + Mini-Projeto 2**
 
 <details>
-<summary><h3>📅 Aula 8 - Desenvolvimento de Código e Práticas Assistidas por IA</h3></summary>
+<summary><h3>📅 Aula 08 - Desenvolvimento de Código e Práticas Assistidas por IA</h3></summary>
 
 **Data:** DD/MM/2026 - Quarta | **Semana:** 4
 
@@ -314,7 +314,7 @@ Poldrack et al. (2024); Wong et al. (2023); Meira (2024) - Seção 4.1
 </details>
 
 <details>
-<summary><h3>📅 Aula 9 - Testes de Software e Otimização de Código com IA</h3></summary>
+<summary><h3>📅 Aula 09 - Testes de Software e Otimização de Código com IA</h3></summary>
 
 **Data:** DD/MM/2026 - Segunda | **Semana:** 5
 
