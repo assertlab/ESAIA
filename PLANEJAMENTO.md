@@ -103,7 +103,7 @@ Tutorial e documentação fornecidos
 
 ---
 
-## 📚 FASE 1: Fundamentos (Aulas 01-07)
+## 📚 FASE 1: Fundamentos (Aulas 1-7)
 
 **Semanas 1-4 | Requirements & Design + Mini-Projeto 1**
 
