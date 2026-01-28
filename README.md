@@ -105,25 +105,25 @@ Um dos diferenciais desta disciplina é o uso da **[Metodologia Sinfonia](https:
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│                    METODOLOGIA SINFONIA                    │
+│                       METODOLOGIA SINFONIA                       │
 ├────────────────────────────────────────────────────────────┤
-│                                                             │
-│  🎯 Movimento 1: EXPOSIÇÃO (Aulas 16-21)                  │
-│     → Alinhar estratégia e definir problema               │
-│     → Canvas de Estratégia, Personas, Missão/Visão        │
-│                                                             │
-│  🎨 Movimento 2: COMPOSIÇÃO (Aulas 22-26)                 │
-│     → Desenhar a solução técnica                           │
-│     → C4 Model, Catálogo de Prompts, Design de Experimento│
-│                                                             │
-│  🔨 Movimento 3: ENSAIO (Aulas 27-32)                     │
-│     → Construir, testar e preparar lançamento              │
-│     → MVP, Canvas de Testes, Checklist de Lançamento      │
-│                                                             │
-│  📊 Movimento 4: RESSONÂNCIA (Aulas 33-36)                │
-│     → Medir, aprender e decidir próximos passos            │
-│     → Painel de Feedback, Análise de Métricas, Decisões   │
-│                                                             │
+│                                                                  │
+│  🎯 Movimento 1: EXPOSIÇÃO (Aulas 16-21)                         │
+│     → Alinhar estratégia e definir problema                      │
+│     → Canvas de Estratégia, Personas, Missão/Visão               │
+│                                                                  │
+│  🎨 Movimento 2: COMPOSIÇÃO (Aulas 22-26)                        │
+│     → Desenhar a solução técnica                                 │
+│     → C4 Model, Catálogo de Prompts, Design de Experimento       │
+│                                                                  │
+│  🔨 Movimento 3: ENSAIO (Aulas 27-32)                            │
+│     → Construir, testar e preparar lançamento                    │
+│     → MVP, Canvas de Testes, Checklist de Lançamento             │
+│                                                                  │
+│  📊 Movimento 4: RESSONÂNCIA (Aulas 33-36)                       │
+│     → Medir, aprender e decidir próximos passos                  │
+│     → Painel de Feedback, Análise de Métricas, Decisões          │
+│                                                                  │
 └────────────────────────────────────────────────────────────┘
 ```
 
