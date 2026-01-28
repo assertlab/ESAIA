@@ -20,7 +20,7 @@
 
 | Fase | Aulas | Período | Tema Principal |
 |------|-------|---------|----------------|
-| **[Fase 0](#-fase-0-nivelamento-aula-0)** | Aula 0 | Pré-semestre | 🔧 Nivelamento |
+| **[Fase 0](#-fase-0-nivelamento-aula-0)** | Aula 0 | Warmup | 🔧 Nivelamento |
 | **[Fase 1](#-fase-1-fundamentos-aulas-1-7)** | 01-07 | Semanas 01-04 | 📚 Fundamentos + Mini-Projeto 1 |
 | **[Fase 2](#-fase-2-development--testing-aulas-8-14)** | 08-14 | Semanas 05-08 | 💻 Development & Testing + Mini-Projeto 2 |
 | **[Fase 3](#-fase-3-maintenance--exposição-aulas-15-21)** | 15-21 | Semanas 09-12 | 🔄 Maintenance + Movimento Exposição |
