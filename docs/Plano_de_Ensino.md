@@ -8,7 +8,7 @@
 
 ---
 
-# [IF0000] - TÓPICOS AVANÇADOS EM SISTEMAS DE INFORMAÇÃO X
+# [IF1015] - TÓPICOS AVANÇADOS EM SISTEMAS DE INFORMAÇÃO 6
 
 **Nome Fantasia:** Engenharia de Software Assistida por IA (ESAIA)
 
@@ -35,17 +35,17 @@ A metodologia da disciplina combina discussões teóricas, exercícios práticos
 ## PRÉ-REQUISITOS
 
 ### Obrigatórios
-- **IF682** - Engenharia de Software e Sistemas (ou equivalente)
+- **IF977** - Engenharia de Software e Sistemas (ou equivalente)
 - **Fundamentos de Programação** (IF669 ou equivalente)
 - **Experiência comprovada com Python** (projetos em disciplinas anteriores)
 - **Familiaridade com Git/GitHub** (versionamento de código)
 
 ### Altamente Recomendados
-- **IF684** - Sistemas Inteligentes (ou equivalente em IA)
-- **IF699** - Aprendizado de Máquina
-- **IF682** - Gerência de Projetos de Software
+- **IFXXX** - Sistemas Inteligentes (ou equivalente em IA)
+- **IFXXX** - Aprendizado de Máquina
+- **IFXXX** - Gerência de Projetos de Software
 - Experiência prévia com APIs REST
-- Conhecimento básico de Docker e containerização
+- Conhecimento básico de Docker/Podman e containerização
 - Familiaridade com ambientes de desenvolvimento integrado (IDEs)
 
 ### Conhecimentos Desejáveis
@@ -295,105 +295,6 @@ A avaliação é **contínua, formativa e somativa**, baseada em múltiplos comp
 
 ---
 
-## RECURSOS DIDÁTICOS
-
-### Ferramentas de IA e Desenvolvimento
-
-#### Assistentes de Codificação
-- **GitHub Copilot** (licenças educacionais)
-- **Claude Code** (Anthropic)
-- **Cursor AI**
-- **JetBrains AI Assistant**
-- **Aider** (CLI tool for AI pair programming)
-- **Continue.dev**
-
-#### APIs de LLMs
-- **OpenAI API** (GPT-4, GPT-4 Turbo)
-- **Anthropic API** (Claude 3.5 Sonnet, Claude 3 Opus)
-- **Google Gemini API**
-- **Acesso institucional fornecido** (créditos limitados)
-
-#### Plataformas e Frameworks
-- **LangChain / LlamaIndex** (para aplicações com LLMs)
-- **Hugging Face Transformers**
-- **GitHub Actions** (para CI/CD)
-- **Docker** (containerização)
-
-### Benchmarks e Datasets
-
-- **HumanEval:** Avaliação de geração de código Python
-- **SWE-bench:** Benchmark de resolução de issues reais em GitHub
-- **CodeXGLUE:** Suite de tarefas para code understanding
-- **BigCodeBench:** Benchmark para code generation
-- **Datasets públicos:** GitHub Code, Stack Overflow, etc.
-
-### Ambientes e Infraestrutura
-
-- **GitHub Education:** Repositórios privados e ferramentas gratuitas
-- **Cloud Credits:** AWS Educate / Azure for Students / GCP Education
-- **Sandboxes Seguros:** Ambientes isolados para experimentação
-- **Compute Resources:** Acesso a GPUs para fine-tuning (se aplicável)
-
-### Materiais de Leitura
-
-#### Livros Textos
-- Russell, S., & Norvig, P. (2020). **Artificial Intelligence: A Modern Approach** (4th ed.). Pearson. [Capítulos selecionados sobre ML e NLP]
-
-#### Artigos Científicos Principais
-- Fan, A., et al. (2023). "Large Language Models for Software Engineering: Survey and Open Problems." *IEEE/ACM ICSE-FoSE*.
-- Hou, X., et al. (2024). "Large Language Models for Software Engineering: A Systematic Literature Review." *arXiv:2308.10620*.
-- Wang, J., et al. (2024). "Software Testing with Large Language Models: Survey, Landscape, and Vision." *IEEE Transactions on Software Engineering*, 50(4), 911-936.
-- Sauvola, J., et al. (2024). "Future of software development with generative AI." *Automation in Software Engineering*, 31, 26.
-
-#### Surveys e Estado da Arte (2023-2024)
-- Poldrack, R. A., et al. (2024). "AI-Assisted Coding: Experiments with GPT-4." *arXiv preprint*.
-- Vijayvergiya, M., et al. (2024). "AI-Assisted Assessment of Coding Practices in Modern Code Review." *arXiv:2405.13565*.
-- Wong, M.-F., et al. (2023). "Natural language generation and understanding of big code for AI-assisted programming: A review." *Entropy*, 25(6), 888.
-- Gezici, B., & Tarhan, A. K. (2022). "Systematic literature review on software quality for AI-based software." *Empirical Software Engineering*, 27(3), 66.
-
-#### Ética e Responsabilidade em IA
-- ACM Code of Ethics and Professional Conduct (2018, updated 2024). https://www.acm.org/code-of-ethics
-- IEEE Ethically Aligned Design (2024). https://standards.ieee.org/industry-connections/ec/ead/
-- Partnership on AI Guidelines. https://partnershiponai.org/
-- Ferrara, E. (2023). "Fairness and bias in artificial intelligence: A brief survey." *arXiv preprint*.
-- Wu, F., et al. (2024). "A New Era in LLM Security: Exploring Security Concerns in Real-World LLM-based Systems." *arXiv:2402.18649*.
-
-#### Artigos sobre Casos de Uso Específicos
-- **Requirements Engineering:** Zhao, L., et al. (2021). "Natural language processing for requirements engineering: A systematic mapping study." *ACM Computing Surveys*, 54(3), 1-41.
-- **Software Architecture:** Belzner, L. (2023). "AI-Assisted Software Architecture."
-- **Code Generation & Review:** Harding, W., & Kloster, M. (2024). "Coding on Copilot: 2023 Data Shows Downward Pressure on Code Quality." *GitClear Report*.
-- **Testing:** Hourani, H., et al. (2019). "The impact of artificial intelligence on software testing." *IEEE JEEIT*.
-- **DevOps:** Fu, M., et al. (2024). "AI for DevSecOps: A Landscape and Future Opportunities." *arXiv:2404.04839*.
-- **Bug Detection:** Khleel, N. A. A., & Nehéz, K. (2023). "Comprehensive study on machine learning techniques for software bug prediction." *International Journal*.
-
-#### Recursos Online e Documentação
-
-**Tutoriais e Documentação Oficial:**
-- GitHub Copilot Documentation: https://docs.github.com/en/copilot
-- Anthropic Claude Documentation: https://docs.anthropic.com/
-- OpenAI API Documentation: https://platform.openai.com/docs
-- LangChain Documentation: https://python.langchain.com/
-- Hugging Face Course: https://huggingface.co/learn
-
-**Blogs e Artigos Técnicos:**
-- GARCIA, Vinicius Cardoso. "Transformação Digital com IA" Series: https://dev.to/vinicius3w/series/32001
-- Google AI Blog: https://ai.googleblog.com/
-- OpenAI Blog: https://openai.com/blog
-- Anthropic Research: https://www.anthropic.com/research
-
-**Podcasts e Vídeos:**
-- "AI and Software Engineering" (YouTube, conference talks)
-- Lex Fridman Podcast (episódios sobre AI e SE)
-
-### Plataforma de Comunicação e Colaboração
-
-- **Discord/Slack:** Canal dedicado da disciplina para comunicação assíncrona
-- **GitHub Organization:** Repositório centralizado para materiais e projetos
-- **Google Classroom / Moodle:** Submissão de trabalhos e anúncios oficiais
-- **Notion / Confluence:** Documentação colaborativa de projetos
-
----
-
 ## POLÍTICA DE PRESENÇA E PONTUALIDADE
 
 - **Presença mínima obrigatória:** 75% das aulas (23 de 30 aulas)
@@ -403,18 +304,9 @@ A avaliação é **contínua, formativa e somativa**, baseada em múltiplos comp
 
 ---
 
-## OFFICE HOURS E SUPORTE
-
-- **Horário:** Quintas-feiras, 14h-16h (ou agendamento via e-mail)
-- **Local:** Sala do professor ou online (Google Meet/Zoom)
-- **Agendamento:** Enviar e-mail com antecedência de 24 horas para garantir disponibilidade
-- **Suporte Assíncrono:** Dúvidas podem ser postadas no canal Discord/Slack da disciplina. Resposta esperada em até 24-48 horas (dias úteis).
-
----
-
 ## CÓDIGO DE CONDUTA E ÉTICA
 
-Todos os alunos devem ler, compreender e assinar o **Código de Conduta para Uso Ético de IA na Disciplina ESAIA** (documento separado) na primeira semana de aula.
+Todos os alunos devem ler, compreender e se comprometer com o **Código de Conduta para Uso Ético de IA na Disciplina ESAIA** (documento separado) na primeira semana de aula.
 
 Princípios fundamentais incluem:
 - **Integridade acadêmica:** Uso honesto e atribuído de ferramentas de IA
@@ -473,135 +365,9 @@ Para ter sucesso nesta disciplina, recomenda-se:
 
 ---
 
-## CONTATO
+**Última Atualização:** Janeiro de 2026
 
-**Professor:** Vinicius Cardoso Garcia
-**E-mail:** vcg@cin.ufpe.br
-**Website:** [Link para página pessoal ou do curso]
-**Canal da Disciplina:** [Link para Discord/Slack]
-**GitHub Organization:** [Link para organização GitHub]
-
----
-
-## REFERÊNCIAS BIBLIOGRÁFICAS COMPLETAS
-
-### Livros e Textos Fundamentais
-
-1. Russell, S., & Norvig, P. (2020). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson Education. Available: https://aima.cs.berkeley.edu/
-
-### Surveys e Revisões Sistemáticas (2023-2024)
-
-2. Fan, A., Gokkaya, B., Harman, M., Lyubarskiy, M., Sengupta, S., Yoo, S., & Zhang, J. M. (2023). Large Language Models for Software Engineering: Survey and Open Problems. In *2023 IEEE/ACM International Conference on Software Engineering: Future of Software Engineering (ICSE-FoSE)* (pp. 31-53). IEEE. doi: 10.1109/ICSE-FoSE59343.2023.00008
-
-3. Hou, X., Zhao, Y., Liu, Y., Yang, Z., Wang, K., Li, L., Luo, X., Lo, D., Grundy, J., & Wang, H. (2024). Large Language Models for Software Engineering: A Systematic Literature Review. *arXiv preprint arXiv:2308.10620*.
-
-4. Sauvola, J., Tarkoma, S., Klemettinen, M., et al. (2024). Future of software development with generative AI. *Automation in Software Engineering*, 31, Article 26. https://doi.org/10.1007/s10515-024-00426-z
-
-5. Wang, J., Huang, Y., Chen, C., Liu, Z., Wang, S., & Wang, Q. (2024). Software Testing With Large Language Models: Survey, Landscape, and Vision. *IEEE Transactions on Software Engineering*, 50(4), 911-936. doi: 10.1109/TSE.2024.3368208
-
-### Requirements Engineering e Design
-
-6. Zhao, L., Alhoshan, W., Ferrari, A., Letsholo, K. J., Ajagbe, M. A., Chioasca, E. V., & Batista-Navarro, R. T. (2021). Natural language processing for requirements engineering: A systematic mapping study. *ACM Computing Surveys (CSUR)*, 54(3), 1-41.
-
-7. Luitel, S., Rajaswa, P., Khreis, T., Holtgraves, T., & Lahiri, S. (2023). We're Afraid Language Models Aren't Modeling Ambiguity. In *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing* (pp. 790-807).
-
-8. Felfernig, A., et al. (2021). AI-powered Requirements Prioritization.
-
-9. Sun, X., Liu, Y., Gao, Y., & Menzies, T. (2021). Scenario-based automated testing with deep reinforcement learning. *IEEE Transactions on Software Engineering*.
-
-10. Salminen, J., Guan, K., Jung, S. G., & Jansen, B. J. (2022). A survey of 15 years of data-driven persona development. *International Journal of Human-Computer Interaction*, 38(15), 1453-1475.
-
-11. Zhang, X., Feng, Y., Chen, Z., Wang, T., Tian, Y., Ernst, M. D., Harman, M., & Mao, X. (2023). PersonaGen: A Tool for Generating Personas from User Feedback. In *2023 IEEE 31st International Requirements Engineering Conference (RE)*. IEEE.
-
-### Software Architecture
-
-12. Belzner, L. (2023). AI-Assisted Software Architecture. In *Proceedings of the International Conference on Software Architecture*.
-
-13. Venters, C. C., et al. (2018). Software sustainability: Research and practice from a software architecture viewpoint. *Journal of Systems and Software*, 138, 174-188.
-
-### Development, Code Generation, and Testing
-
-14. Vijayvergiya, M., Dhoot, V., Jasny, V., Radhakrishna, V., Ramachandra, P., Murphy, G., & Reid, J. (2024). AI-Assisted Assessment of Coding Practices in Modern Code Review. *arXiv preprint arXiv:2405.13565*.
-
-15. Wong, M.-F., Guo, S., Hang, C. W., Ho, S. W., & Tan, C. W. (2023). Natural language generation and understanding of big code for AI-assisted programming: A review. *Entropy*, 25(6), 888.
-
-16. Poldrack, R. A., Lu, T., & Beguš, G. (2024). AI-Assisted Coding: Experiments with GPT-4. *arXiv preprint*.
-
-17. Harding, W., & Kloster, M. (2024). Coding on Copilot: 2023 Data Shows Downward Pressure on Code Quality. GitClear Report.
-
-18. Hourani, H., Hammad, A., & Lafi, M. (2019). The impact of artificial intelligence on software testing. In *2019 IEEE Jordan International Joint Conference on Electrical Engineering and Information Technology (JEEIT)*. IEEE.
-
-19. Hakimi, Y., Baghdadi, R., & Challal, Y. (2023). A Hybrid Machine Learning Model for Code Optimization. *International Journal of Parallel Programming*, 51(6), 309-331.
-
-### DevOps, CI/CD, and Deployment
-
-20. Fu, M., Pasuksmit, J., & Tantithamthavorn, C. (2024). AI for DevSecOps: A Landscape and Future Opportunities. *arXiv preprint arXiv:2404.04839*.
-
-21. Vemuri, N., & Venigandla, K. (2022). Autonomous DevOps: Integrating RPA, AI, and ML for Self-Optimizing Development Pipelines. *Asian Journal of Multidisciplinary Research & Review*, 3(2), 214-231.
-
-22. Houerbi, A., et al. (2024). Empirical Analysis on CI/CD Pipeline Evolution in Machine Learning Projects. *arXiv preprint arXiv:2403.12199*.
-
-23. Keller, J., & Nowakowski, J. (2024). AI-powered patching: the future of automated vulnerability fixes. Google Security Engineering Technical Report.
-
-24. Gazit, T. (2024). Fixing security vulnerabilities with AI. *The GitHub Blog*.
-
-### Maintenance, Bug Detection, and Updates
-
-25. Khleel, N. A. A., & Nehéz, K. (2023). Comprehensive study on machine learning techniques for software bug prediction. *International Journal of Computer Science and Information Technology*.
-
-26. Xin, R., et al. (2023). Robust and accurate performance anomaly detection and prediction for cloud applications: a novel ensemble learning-based framework. *Journal of Cloud Computing*, 12(1), 7.
-
-27. Thudumu, S., et al. (2020). A comprehensive survey of anomaly detection techniques for high dimensional big data. *Journal of Big Data*, 7, 1-30.
-
-### Ética, Viés, e Responsabilidade
-
-28. Ferrara, E. (2023). Fairness and bias in artificial intelligence: A brief survey of sources, impacts, and mitigation strategies. *Science Robotics*, 8(82).
-
-29. Wu, F., et al. (2024). A New Era in LLM Security: Exploring Security Concerns in Real-World LLM-based Systems. *arXiv preprint arXiv:2402.18649*.
-
-30. Zhao, H., Chen, H., Yang, F., Liu, N., Deng, H., Cai, H., Wang, S., Yin, D., & Du, M. (2024). Explainability for large language models: A survey. *ACM Transactions on Intelligent Systems and Technology*, 15(2), 1-38.
-
-31. Divakaran, D. M., & Peddinti, S. T. (2024). Security and Privacy Issues in Large Language Models. *arXiv preprint*.
-
-32. Luo, Q., & Specia, L. (2024). Explainable AI for Software Engineering. *arXiv preprint*.
-
-### Software Quality and Reliability
-
-33. Gezici, B., & Tarhan, A. K. (2022). Systematic literature review on software quality for AI-based software. *Empirical Software Engineering*, 27(3), Article 66.
-
-34. Hong, Y., Meeker, W. Q., & McCalley, J. D. (2023). Statistical perspectives on reliability of artificial intelligence systems. *Quality Engineering*, 35(1), 56-78.
-
-### Outros Tópicos Relevantes
-
-35. Kanbach, D. K., Heiduk, L., Blueher, G., Schreiter, M., & Lahmann, A. (2024). The GenAI is out of the bottle: generative artificial intelligence from a business model innovation perspective. *Review of Managerial Science*, 18(4), 1189-1220.
-
-36. Yuan, P. F. (2023). Toward a generative AI-augmented design era. *Architectural Intelligence*, 2(1), Article 16.
-
-37. Hassannataj, J., et al. (2024). Resource allocation problem and artificial intelligence: the state-of-the-art review (2009–2023) and open research challenges. *Multimedia Tools and Applications*, 1-44.
-
-### Recursos Online e Documentação
-
-38. ACM Code of Ethics and Professional Conduct (2018, updated 2024). Retrieved from https://www.acm.org/code-of-ethics
-
-39. IEEE Standards Association. (2024). Ethically Aligned Design: A Vision for Prioritizing Human Well-being with Autonomous and Intelligent Systems. Retrieved from https://standards.ieee.org/industry-connections/ec/ead/
-
-40. Partnership on AI. (2024). Responsible AI Guidelines. Retrieved from https://partnershiponai.org/
-
-41. GARCIA, Vinicius Cardoso. Transformação Digital com IA Series' Articles. Retrieved from https://dev.to/vinicius3w/series/32001
-
-42. OpenAI. (2024). GPT-4 Technical Report. *arXiv preprint arXiv:2303.08774*.
-
-43. GitHub. (2024). GitHub Copilot Documentation. Retrieved from https://docs.github.com/en/copilot
-
-44. Anthropic. (2024). Claude Documentation. Retrieved from https://docs.anthropic.com/
-
-45. HuggingFace. (2024). Transformers Documentation and Tutorials. Retrieved from https://huggingface.co/docs/transformers/
-
----
-
-**Última Atualização:** Dezembro de 2025
-
-**Versão:** 2.0
+**Versão:** 2.1
 
 ---
 
