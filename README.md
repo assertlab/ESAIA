@@ -7,7 +7,7 @@
 ![Semestre](https://img.shields.io/badge/Semestre-2026.1-orange)
 ![Licença](https://img.shields.io/badge/Licen%C3%A7a-CC%20BY--NC--SA%204.0-lightgrey)
 
-**Repositório oficial da disciplina IF0000 - Tópicos Avançados em Sistemas de Informação X**
+**Repositório oficial da disciplina IF1015 - Tópicos Avançados em Sistemas de Informação 6**
 
 [Centro de Informática](http://www.cin.ufpe.br) | [UFPE](http://www.ufpe.br)
 
@@ -40,7 +40,7 @@ Esta disciplina de tópicos avançados explora a aplicação da **Inteligência 
 
 ### 🎯 Destaques
 
-- 🤖 **Foco em LLMs**: Aprenda a utilizar GPT-4, Claude, Gemini e outras ferramentas de IA
+- 🤖 **Foco em LLMs**: Aprenda a utilizar GPT-X, Claude, Gemini e outras ferramentas de IA
 - 🛠️ **Hands-on**: Mini-projetos práticos + projeto final substancial
 - 🎼 **Metodologia Sinfonia**: Framework estruturado testado em 4 semestres no CIn/UFPE
 - 🔒 **Ética e Segurança**: Abordagem crítica sobre hallucinations, vieses e vulnerabilidades
@@ -70,7 +70,7 @@ Por meio de **mini-projetos práticos incrementais** e um **projeto final em equ
 - **Centro de Informática - UFPE**
 - **Horários:** 
   - Segunda-feira: 17:00-18:40
-  - Quarta-feira: 18:50-20:30
+  - Terça-feira: 18:50-20:30
 - **Sala:** E-112, Bloco E
 - **Aulas práticas:** Lab G2 (preferencialmente)
 
@@ -90,14 +90,14 @@ Por meio de **mini-projetos práticos incrementais** e um **projeto final em equ
 
 ### 📋 Código da Disciplina
 
-- **Graduação:** [IF0000] - Tópicos Avançados em Sistemas de Informação X
+- **Graduação:** [IF1015] - Tópicos Avançados em Sistemas de Informação X
 - **Nome Fantasia:** Engenharia de Software Assistida por IA (ESAIA)
 
 ---
 
 ## 🎼 Metodologia Sinfonia
 
-Um dos diferenciais desta disciplina é o uso da **Metodologia Sinfonia** para estruturar o projeto final. A Sinfonia é um framework ágil para design e evolução de produtos intensivos em IA, desenvolvida pelos professores Vinicius Cardoso Garcia e Rodrigo Pessoa Medeiros, testada e refinada ao longo de 4 semestres no CIn/UFPE.
+Um dos diferenciais desta disciplina é o uso da **[Metodologia Sinfonia](https://github.com/assertlab/sinfonia)** para estruturar o projeto final. A Sinfonia é um framework ágil para design e evolução de produtos intensivos em IA, desenvolvida pelos professores Vinicius Cardoso Garcia e Rodrigo Pessoa Medeiros, testada e refinada ao longo de 4 semestres no CIn/UFPE.
 
 ### Os 4 Movimentos da Sinfonia
 
@@ -141,7 +141,7 @@ A metodologia define **14 artefatos concretos** que guiam o desenvolvimento do p
 
 **Ressonância (2):** Painel de Feedback, Canvas de Escalabilidade
 
-> 💡 **Saiba mais:** Garcia, V. C., & Medeiros, R. P. (2025). *Sinfonia: Orquestrando a Inteligência Artificial*. ASSERT Lab. [GitHub do Sinfonia](https://github.com/assertlab/sinfonia)
+> 💡 **Saiba mais:** Garcia, V. C., & Medeiros, R. P. (2025). *Sinfonia: Orquestrando a Inteligência Artificial*. ASSERT Lab. [GitHub com o Playboook da Metodologia Sinfonia](https://github.com/assertlab/sinfonia)
 
 ---
 
@@ -149,19 +149,19 @@ A metodologia define **14 artefatos concretos** que guiam o desenvolvimento do p
 
 ### ✅ Obrigatórios
 
-- **IF682** - Engenharia de Software e Sistemas (ou equivalente)
+- **IF977** - Engenharia de Software e Sistemas (ou equivalente)
 - **Fundamentos de Programação** (IF669 ou equivalente)
-- **Experiência comprovada com Python** (projetos em disciplinas anteriores)
+- **Experiência comprovada com Desenvolvimento de Software** (projetos em disciplinas anteriores)
 - **Familiaridade com Git/GitHub** (versionamento de código)
 
 ### 🎯 Altamente Recomendados
 
-- **IF684** - Sistemas Inteligentes (ou equivalente em IA)
-- **IF699** - Aprendizado de Máquina
-- **IF688** - Gerência de Projetos de Software
+- **IFXXX** - Sistemas Inteligentes (ou equivalente em IA)
+- **IFXXX** - Aprendizado de Máquina
+- **IFXXX** - Gerência de Projetos de Software
 - Experiência prévia com APIs REST
-- Conhecimento básico de Docker e containerização
-- Familiaridade com IDEs (VS Code, PyCharm, etc.)
+- Conhecimento básico de Docker/Podman e containerização
+- Familiaridade com IDEs (VSCode, VSCodiuem, JetBrains, PyCharm, etc.)
 
 ### 💡 Conhecimentos Desejáveis
 
@@ -181,7 +181,7 @@ A metodologia define **14 artefatos concretos** que guiam o desenvolvimento do p
 
 🎯 **Preparação para o Mercado de Trabalho do Futuro**
 - Habilidades em alta demanda no mercado atual
-- Experiência com ferramentas de IA de ponta (GitHub Copilot, Claude Code, GPT-4, etc.)
+- Experiência com ferramentas de IA de ponta (GitHub Copilot, Claude Code, GPT-*, etc.)
 - Portfolio profissional com projetos reais
 
 🧠 **Habilidades Técnicas e Analíticas**
@@ -459,7 +459,17 @@ esaia/
 - **[HumanEval](https://github.com/openai/human-eval)** - Avaliação de geração de código Python
 - **[SWE-bench](https://www.swebench.com)** - Resolução de issues reais do GitHub
 - **[CodeXGLUE](https://github.com/microsoft/CodeXGLUE)** - Suite de tarefas para code understanding
-- **[BigCodeBench](https://huggingface.co/spaces/bigcode/bigcodebench)** - Benchmark para code generation
+- **[BigCodeBench](https://bigcode-bench.github.io/)** - Benchmark para code generation
+
+### Ferramentas
+
+- **GitHub Copilot** [Documentation](https://docs.github.com/en/copilot)
+- **Claude Code** by Anthropic [Documentation](https://code.claude.com/docs/en/overview)
+- **Claude API** [Docs](https://platform.claude.com/docs/en/home)
+- **Cursor AI** [Documentation](https://cursor.com/docs)
+- **Aider** [Documentation](https://aider.chat/docs/)
+- **Continue.dev** [Documentation](https://docs.continue.dev/)
+- **Antigravity** by Google [Documentation](https://antigravity.google/docs/get-started)
 
 ### Frameworks e Bibliotecas
 
@@ -493,7 +503,7 @@ Veja a seção completa de [Referências Bibliográficas](#referências-bibliogr
 
 ### Office Hours
 
-- **Quando:** Quintas-feiras, 14h-16h (ou agendamento via e-mail)
+- **Quando:** Segundas-feiras, 14h-16h (ou agendamento via e-mail)
 - **Onde:** Sala do professor ou online (Google Meet/Zoom)
 - **Agendamento:** E-mail com antecedência de 24 horas
 
@@ -524,67 +534,69 @@ Veja a seção completa de [Referências Bibliográficas](#referências-bibliogr
 
 3. **Fan, A., et al.** (2023). Large Language Models for Software Engineering: Survey and Open Problems. *IEEE/ACM ICSE-FoSE*. [DOI](https://doi.org/10.1109/ICSE-FoSE59343.2023.00008)
 
-4. **Hou, X., et al.** (2024). Large Language Models for Software Engineering: A Systematic Literature Review. *arXiv:2308.10620*.
+4. **Belzner, L., Gabor, T. and Wirsing, M.** (2024) “Large Language Model Assisted Software Engineering: Prospects, Challenges, and a Case Study,” in Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics). Springer, Cham, pp. 355–374. [DOI](https://doi.org/10.1007/978-3-031-46002-9_23).
 
 5. **Sauvola, J., et al.** (2024). Future of software development with generative AI. *Automation in Software Engineering*, 31. [DOI](https://doi.org/10.1007/s10515-024-00426-z)
 
-6. **Wang, J., et al.** (2024). Software Testing With Large Language Models: Survey, Landscape, and Vision. *IEEE TSE*, 50(4), 911-936.
+6. **Wang, J., et al.** (2024). Software Testing With Large Language Models: Survey, Landscape, and Vision. *IEEE TSE*, 50(4), 911-936. doi: 10.1109/TSE.2024.3368208. Disponível em: <https://arxiv.org/abs/2307.07221v3>.
 
 ### 🔧 Requirements Engineering e Design
 
-7. **Zhao, L., et al.** (2021). Natural language processing for requirements engineering: A systematic mapping study. *ACM CSUR*, 54(3), 1-41.
+7. **Zhao, L., et al.** (2021). Natural language processing for requirements engineering: A systematic mapping study. *ACM CSUR*, 54(3), 1-41. <https://dl.acm.org/doi/10.1145/3444689>
 
-8. **Salminen, J., et al.** (2022). A survey of 15 years of data-driven persona development. *IJHCI*, 38(15), 1453-1475.
+8. **Salminen, J., et al.** (2021). “A Survey of 15 Years of Data-Driven Persona Development,” _International Journal of Human–Computer Interaction_, 37(18), pp. 1685–1708. Available at: <https://doi.org/10.1080/10447318.2021.1908670>.
 
-9. **Zhang, X., et al.** (2023). PersonaGen: A Tool for Generating Personas from User Feedback. *IEEE RE*.
+9. **Zhang, X., et al.** (2023).“PersonaGen: A Tool for Generating Personas from User Feedback,” 2023 IEEE 31st International Requirements Engineering Conference (RE), 2023-Septe, pp. 353–354. Available at: <https://doi.org/10.1109/RE57278.2023.00048>.
 
 ### 🏗️ Software Architecture
 
-10. **Belzner, L.** (2023). AI-Assisted Software Architecture. *ICSA*.
+10. **Esposito, M. et al.** (2026) “Generative AI for software architecture. Applications, challenges, and future directions,” Journal of Systems and Software, 231, p. 112607. Available at: <https://doi.org/10.1016/j.jss.2025.112607>.
+
+11. **Bucaioni, A. et al.** (2025) “Artificial Intelligence for Software Architecture: Literature Review and the Road Ahead,” Proceedings of The ACM International Conference on the Foundations of Software Engineering (FSE ’25), 1. Available at: <https://arxiv.org/html/2504.04334v1>.
 
 ### 💻 Development, Code Generation, Testing
 
-11. **Vijayvergiya, M., et al.** (2024). AI-Assisted Assessment of Coding Practices in Modern Code Review. *arXiv:2405.13565*.
+12. **Vijayvergiya, M., et al.** (2024). “AI-Assisted Assessment of Coding Practices in Modern Code Review.” Available at: <https://doi.org/10.1145/3664646.3665664>.
 
-12. **Wong, M.-F., et al.** (2023). Natural language generation and understanding of big code for AI-assisted programming. *Entropy*, 25(6), 888.
-
-13. **Poldrack, R. A., et al.** (2024). AI-Assisted Coding: Experiments with GPT-4. *arXiv preprint*.
+13. **Poldrack, R. A., et al.** (2023). “AI-assisted coding: Experiments with GPT-4.” Available at: <https://arxiv.org/pdf/2304.13187> (Accessed: January 28, 2026).
 
 ### 🚀 DevOps, CI/CD, Deployment
 
-14. **Fu, M., et al.** (2024). AI for DevSecOps: A Landscape and Future Opportunities. *arXiv:2404.04839*.
+14. **Fu, M., et al.** (2024). “AI for DevSecOps: A Landscape and Future Opportunities,” arXiv preprint arXiv:2404.04839 [Preprint]. Available at: <https://arxiv.org/abs/2404.04839v1> (Accessed: May 27, 2024).
 
 ### 🐛 Maintenance, Bug Detection
 
-15. **Khleel, N. A. A., & Nehéz, K.** (2023). Comprehensive study on machine learning techniques for software bug prediction.
+15. **Ravikumar, C. et al.** (2025) “A Comprehensive Analysis of Machine Learning Methods for Bug Prediction in Software Development,” in Lecture Notes in Electrical Engineering. Springer, Singapore, pp. 929–935. Available at: <https://doi.org/10.1007/978-981-97-8031-0_99>.
 
-16. **Gazit, T.** (2024). Fixing security vulnerabilities with AI. *The GitHub Blog*.
+16. **Sakib, F.F. et al.** (2025) “A Comprehensive Evaluation of Machine Learning Techniques for Predicting Software Bugs,” in 2025 4th International Conference on Robotics, Electrical and Signal Processing Techniques (ICREST). IEEE, pp. 228–233. Available at: <https://doi.org/10.1109/ICREST63960.2025.10914387>.
 
-17. **Keller, J., & Nowakowski, J.** (2024). AI-powered patching: the future of automated vulnerability fixes. *Google Security Report*.
+17. **Gazit, T.** (2024). Fixing security vulnerabilities with AI. *The GitHub Blog*. Available at: <https://github.blog/engineering/platform-security/fixing-security-vulnerabilities-with-ai/>. Updated April 7, 2025.
+
+18. **Keller, J., & Nowakowski, J.** (2024). AI-powered patching: the future of automated vulnerability fixes. *Google Security Report*. Available at: <https://research.google/pubs/ai-powered-patching-the-future-of-automated-vulnerability-fixes/>
 
 ### ⚖️ Ética, Viés, Responsabilidade
 
-18. **Ferrara, E.** (2023). Fairness and bias in artificial intelligence. *Science Robotics*, 8(82).
+19. **Ferrara, E.** (2023). “Fairness and Bias in Artificial Intelligence: A Brief Survey of Sources, Impacts, and Mitigation Strategies,” Sci, 6(1), p. 3. Available at: <https://doi.org/10.3390/sci6010003>.
 
-19. **Wu, F., et al.** (2024). A New Era in LLM Security: Exploring Security Concerns in Real-World LLM-based Systems. *arXiv:2402.18649*.
+20. **Wu, F., et al.** (2024). “A New Era in LLM Security: Exploring Security Concerns in Real-World LLM-based Systems.” Available at: <https://arxiv.org/pdf/2402.18649> (Accessed: January 28, 2026).
 
-20. **Zhao, H., et al.** (2024). Explainability for large language models: A survey. *ACM TIST*, 15(2), 1-38.
+21. **Zhao, H., et al.** (2024). Explainability for large language models: A survey. *ACM TIST*, 15(2), 1-38.
 
 ### 🌐 Recursos Online e Documentação
 
-21. **ACM Code of Ethics** (2024). [Link](https://www.acm.org/code-of-ethics)
+22. **ACM Code of Ethics** (2024). [Link](https://www.acm.org/code-of-ethics)
 
-22. **IEEE Ethically Aligned Design** (2024). [Link](https://standards.ieee.org/industry-connections/ec/ead/)
+23. **IEEE Ethically Aligned Design** (2024). [Link](https://standards.ieee.org/industry-connections/ec/ead/)
 
-23. **GARCIA, Vinicius.** Transformação Digital com IA Series. [dev.to](https://dev.to/vinicius3w/series/32001)
+24. **GARCIA, Vinicius.** Transformação Digital com IA Series. [dev.to](https://dev.to/vinicius3w/series/32001)
 
-24. **GitHub Copilot Documentation**. [Link](https://docs.github.com/en/copilot)
+25. **GARCIA, Vinicius.** Engenharia de Software Assistida por IA Series' Articles. [dev.to](https://dev.to/vinicius3w/series/34768)
 
-25. **Anthropic Claude Documentation**. [Link](https://docs.anthropic.com/)
+26. **Anthropic Claude Documentation**. [Link](https://docs.anthropic.com/)
 
-26. **OpenAI API Documentation**. [Link](https://platform.openai.com/docs)
+27. **OpenAI API Documentation**. [Link](https://platform.openai.com/docs)
 
-27. **HuggingFace Transformers**. [Link](https://huggingface.co/docs/transformers/)
+28. **HuggingFace Transformers**. [Link](https://huggingface.co/docs/transformers/)
 
 > 📚 **Referências completas:** Veja a lista completa de 45+ referências no [Plano de Ensino](./docs/Plano_de_Ensino.md)
 
