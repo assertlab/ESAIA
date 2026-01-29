@@ -36,29 +36,29 @@
 
 ## 🗓️ Calendário do Semestre
 
-> 📝 **Nota:** Datas serão preenchidas conforme calendário acadêmico 2026.1
+> 📝 **Nota:** Aulas confirmadas para **segunda-feira (17:00-18:40)** e **terça-feira (18:50-20:30)**
 
-| Sem | Data Seg | Data Qua | Aulas | Tema | Destaque |
+| Sem | Data Seg | Data Ter | Aulas | Tema | Destaque |
 |-----|----------|----------|-------|------|----------|
-| 0 | - | - | 0 | Nivelamento | 🔧 Pré-semestre |
-| 1 | DD/MM | DD/MM | 01-02 | Intro + LLMs | - |
-| 2 | DD/MM | DD/MM | 03-04 | Requirements | - |
-| 3 | DD/MM | DD/MM | 05-06 | Architecture | - |
-| 4 | DD/MM | DD/MM | 07-08 | CP Mini-Projeto 1 + Dev | ✅ Checkpoint |
-| 5 | DD/MM | DD/MM | 09-10 | Testing + CI/CD | - |
-| 6 | DD/MM | DD/MM | 11-12 | Palestra + Maintenance | 🎤 Palestra |
-| 7 | DD/MM | DD/MM | 13-14 | Bugs + CP Mini-Projeto 2 | ✅ Checkpoint |
-| 8 | DD/MM | DD/MM | 15-16 | Evolution + Kick-off | - |
-| 9 | DD/MM | DD/MM | 17-18 | Exposição: Problema + Personas | - |
-| 10 | DD/MM | DD/MM | 19-20 | Exposição: Missão + Ideação | - |
-| 11 | DD/MM | DD/MM | 21-22 | CP1 + Prompt Engineering | ✅ Checkpoint 1 🎯 Especial |
-| 12 | DD/MM | DD/MM | 23-24 | Composição: Arquitetura + Prompts | - |
-| 13 | DD/MM | DD/MM | 25-26 | Composição: Experimento + CP2 | ✅ Checkpoint 2 |
-| 14 | DD/MM | DD/MM | 27-28 | Ensaio: Sprint 1-2 | - |
-| 15 | DD/MM | DD/MM | 29-30 | Ensaio: Testes + Segurança | 🎯 Especial |
-| 16 | DD/MM | DD/MM | 31-32 | Ensaio: Refinamento + CP3 | ✅ Checkpoint 3 |
-| 17 | DD/MM | DD/MM | 33-34 | Ressonância: Lançamento + Palestra | 🎤 Palestra |
-| 18 | DD/MM | DD/MM | 35-36 | Apresentações Finais | ✅ Checkpoint 4 |
+| **0** | - | - | 0 | Nivelamento e Setup de Ambiente | 🔧 Pré-semestre |
+| **1** | DD/MM | DD/MM | 01-02 | Intro ESAIA + LLMs e IA Generativa | - |
+| **2** | DD/MM | DD/MM | 03-04 | Requisitos com IA + Priorização e Cenários | - |
+| **3** | DD/MM | DD/MM | 05-06 | Arquitetura com IA + Otimização e Refatoração | - |
+| **4** | DD/MM | DD/MM | 07-08 | CP Mini-Projeto 1 + Desenvolvimento Assistido | ✅ Checkpoint |
+| **5** | DD/MM | DD/MM | 09-10 | Testes com IA + DevOps e CI/CD | - |
+| **6** | DD/MM | DD/MM | 11-12 | Palestra Indústria + Detecção de Bugs | 🎤 Palestra |
+| **7** | DD/MM | DD/MM | 13-14 | Resolução de Bugs + CP Mini-Projeto 2 | ✅ Checkpoint |
+| **8** | DD/MM | DD/MM | 15-16 | Update Management + Kick-off Sinfonia | - |
+| **9** | DD/MM | DD/MM | 17-18 | Definição Domínio/Problema + Empatia/Personas | - |
+| **10** | DD/MM | DD/MM | 19-20 | Missão/Visão + Ideação/Priorização | - |
+| **11** | DD/MM | DD/MM | 21-22 | CP1 Exposição + Prompt Engineering | ✅ Checkpoint 1 🎯 Especial |
+| **12** | DD/MM | DD/MM | 23-24 | Arquitetura C4 Model + Catálogo Prompts | - |
+| **13** | DD/MM | DD/MM | 25-26 | Design Experimento + CP2 Composição | ✅ Checkpoint 2 |
+| **14** | DD/MM | DD/MM | 27-28 | Ensaio Sprint 1 + Sprint 2 Integração | - |
+| **15** | DD/MM | DD/MM | 29-30 | Testes Qualidade + Segurança IA | 🎯 Especial |
+| **16** | DD/MM | DD/MM | 31-32 | Refinamento MVP + CP3 Demo Funcional | ✅ Checkpoint 3 |
+| **17** | DD/MM | DD/MM | 33-34 | Lançamento Simulado + Palestra Pesquisador | 🎤 Palestra |
+| **18** | DD/MM | DD/MM | 35-36 | Apresentações Finais 1 e 2 | ✅ Checkpoint 4 |
 
 ---
 
@@ -71,6 +71,7 @@
 | 📦 | Entregável | ✅ | Checkpoint |
 | 🎤 | Palestra | 🎼 | Sinfonia |
 | ⚠️ | Atenção | 💡 | Dica |
+| 🔧 | Nivelamento/Setup | - | Aula Regular |
 
 ---
 
@@ -82,16 +83,16 @@
 **Data:** DD/MM/2026 - Pré-Semestre | **Semana:** 0
 
 #### 🎯 Objetivo
-Preparar os alunos com conhecimentos básicos e ferramentas necessárias para a disciplina. Nivelar conhecimentos de Python, Git, e APIs.
+Preparar os alunos com conhecimentos básicos e ferramentas necessárias para a disciplina. Nivelar conhecimentos de Python/TypeScript, Git, e APIs.
 
 #### 📝 Conteúdo Detalhado
-Setup de ambiente de desenvolvimento (Python, IDEs, Git, GitHub). Introdução prática a APIs de LLMs (OpenAI, Anthropic). Revisão de conceitos de programação orientada a objetos e testes unitários. Configuração de contas e créditos para ferramentas de IA.
+Setup de ambiente de desenvolvimento (Python/TypeScript, IDEs, Git, GitHub). Introdução prática a APIs de LLMs (OpenAI, Anthropic). Revisão de conceitos de programação orientada a objetos e testes unitários. Configuração de contas e créditos para ferramentas de IA.
 
 #### 💻 Atividades
 Exercício hands-on: Hello World com um LLM via API. Configuração de ambiente em grupo com suporte de monitores/professores. Quiz de diagnóstico sobre conhecimentos prévios.
 
 #### 📚 Material Prévio
-Instalar Python 3.10+, Git, VS Code ou IDE de preferência. Criar conta no GitHub. Assistir vídeo introdutório sobre LLMs (link fornecido).
+Instalar Python 3.10+ e/ou Node.js 18+, Git, VS Code ou IDE de preferência. Criar conta no GitHub. Assistir vídeo introdutório sobre LLMs: ["But what is a GPT?" - 3Blue1Brown (~27 min)](https://youtu.be/yMQPQuz5WpA?si=Rv3a5uWzdEH-SjQU), ou ["Intro to Large Language Models" - Andrej Karpathy (~60 min)](https://www.youtube.com/watch?v=zjkBMFhNj_g).
 
 #### 📦 Entregáveis
 Ambiente configurado e funcional. Comprovação de execução do exercício Hello World.
@@ -125,7 +126,7 @@ Debate: expectativas dos alunos em relação à disciplina e aos projetos. Discu
 Ler: Seção 1 do artigo "The Impact of AI on Software Engineering" (Silvio Meira). Assistir: Vídeo introdutório sobre o estado da arte em AI for SE. Ler: Capítulo 1 do livro Sinfonia.
 
 #### 📦 Entregáveis
-Assinatura do Código de Conduta. Reflexão individual (1 página) sobre expectativas.
+Leitura, compreensão e aceite/compromisso do Código de Conduta. Reflexão individual (1 página) sobre expectativas.
 
 #### 📖 Referências
 Meira (2024) - Seção 1; Fan et al. (2023); Russell & Norvig (2020) - Cap. 1; Garcia & Medeiros (2025) - Sinfonia Cap. 1-2
@@ -135,7 +136,7 @@ Meira (2024) - Seção 1; Fan et al. (2023); Russell & Norvig (2020) - Cap. 1; G
 <details>
 <summary><h3>📅 Aula 02 - Modelos de Linguagem e IA Generativa na ES</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 1
+**Data:** DD/MM/2026 - Terça | **Semana:** 1
 
 #### 🎯 Objetivo
 Compreender a base teórica de LLMs (Large Language Models) e seu papel específico na Engenharia de Software.
@@ -185,7 +186,7 @@ Zhao et al. (2021); Luitel et al. (2023); Meira (2024) - Seção 2.1
 <details>
 <summary><h3>📅 Aula 04 - Priorização e Design de Cenários com IA</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 2
+**Data:** DD/MM/2026 - Terça | **Semana:** 2
 
 #### 🎯 Objetivo
 Explorar como a IA pode aprimorar a priorização de requisitos e o design de cenários de uso (user stories, personas).
@@ -235,7 +236,7 @@ Belzner (2023); Venters et al. (2018); Meira (2024) - Seção 3.1; C4 Model docu
 <details>
 <summary><h3>📅 Aula 06 - Otimização de Arquitetura e Refatoração com IA</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 3
+**Data:** DD/MM/2026 - Terça | **Semana:** 3
 
 #### 🎯 Objetivo
 Discutir o uso de IA para otimizar arquiteturas existentes e refatorar código em larga escala.
@@ -291,7 +292,7 @@ Material das Aulas 1-6; SWEBOK
 <details>
 <summary><h3>📅 Aula 08 - Desenvolvimento de Código e Práticas Assistidas por IA</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 4
+**Data:** DD/MM/2026 - Terça | **Semana:** 4
 
 #### 🎯 Objetivo
 Capacitar os alunos a usar ferramentas de IA para assistência direta à codificação (code completion, generation, explanation).
@@ -341,7 +342,7 @@ Wang et al. (2024); Hourani et al. (2019); Meira (2024) - Seção 4.1; Garcia & 
 <details>
 <summary><h3>📅 Aula 10 - DevOps e Integração Contínua (CI/CD) com IA</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 5
+**Data:** DD/MM/2026 - Terça | **Semana:** 5
 
 #### 🎯 Objetivo
 Aprender a integrar IA em processos de DevOps e pipelines de CI/CD para maior eficiência e confiabilidade.
@@ -391,7 +392,7 @@ Material fornecido pelo palestrante (se disponível)
 <details>
 <summary><h3>📅 Aula 12 - Manutenção e Detecção de Bugs Assistida por IA</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 6
+**Data:** DD/MM/2026 - Terça | **Semana:** 6
 
 #### 🎯 Objetivo
 Capacitar os alunos a usar IA para detectar e prever bugs de forma proativa.
@@ -441,7 +442,7 @@ Gazit (2024); Keller & Nowakowski (2024); Meira (2024) - Seções 5.1, 5.2
 <details>
 <summary><h3>✅ Aula 14 - Checkpoint Mini-Projeto 2: Development & Testing com IA</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 7
+**Data:** DD/MM/2026 - Terça | **Semana:** 7
 
 #### 🎯 Objetivo
 Aplicar os conceitos de assistência à codificação, testes e DevOps em um mini-projeto prático.
@@ -499,7 +500,7 @@ Xin et al. (2023); Hong et al. (2023); Gezici & Tarhan (2022); Meira (2024) - Se
 <details>
 <summary><h3>🎼 Aula 16 - [SINFONIA - EXPOSIÇÃO] Kick-off do Projeto Final + Introdução à Metodologia Sinfonia</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 8
+**Data:** DD/MM/2026 - Terça | **Semana:** 8
 
 #### 🎯 Objetivo
 Iniciar o projeto final seguindo a metodologia Sinfonia. Compreender os 4 movimentos e começar o Movimento 1: Exposição.
@@ -549,7 +550,7 @@ Garcia & Medeiros (2025) - Sinfonia Cap. 4.2.1; Artigos sobre problem framing
 <details>
 <summary><h3>🎼 Aula 18 - [SINFONIA - EXPOSIÇÃO] Empatia com o Usuário e Criação de Personas</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 9
+**Data:** DD/MM/2026 - Terça | **Semana:** 9
 
 #### 🎯 Objetivo
 Desenvolver empatia profunda com os usuários finais da solução, criando personas detalhadas com assistência de IA.
@@ -599,7 +600,7 @@ Garcia & Medeiros (2025) - Sinfonia Cap. 4.2.3; Material sobre OKRs e métricas 
 <details>
 <summary><h3>🎼 Aula 20 - [SINFONIA - EXPOSIÇÃO] Ideação de Soluções e Priorização</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 10
+**Data:** DD/MM/2026 - Terça | **Semana:** 10
 
 #### 🎯 Objetivo
 Gerar e priorizar ideias de soluções usando IA, aplicando a Matriz de Impacto vs. Esforço.
@@ -657,7 +658,7 @@ Garcia & Medeiros (2025) - Sinfonia Cap. 4; Rubrica de avaliação do Checkpoint
 <details>
 <summary><h3>🎼 Aula 22 - [SINFONIA - COMPOSIÇÃO] Introdução + AULA ESPECIAL: Prompt Engineering para Engenharia de Software</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 11
+**Data:** DD/MM/2026 - Terça | **Semana:** 11
 
 #### 🎯 Objetivo
 Iniciar o Movimento 2 (Composição) com foco intensivo em Prompt Engineering - habilidade crítica para trabalhar com LLMs em ES.
@@ -707,7 +708,7 @@ Garcia & Medeiros (2025) - Sinfonia Cap. 5.2.1; C4 Model documentation; Belzner 
 <details>
 <summary><h3>🎼 Aula 24 - [SINFONIA - COMPOSIÇÃO] Design de Prompts e Catálogo de Registros</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 12
+**Data:** DD/MM/2026 - Terça | **Semana:** 12
 
 #### 🎯 Objetivo
 Desenvolver e documentar os prompts que serão usados na solução, criando um Catálogo de Registros de Prompt robusto.
@@ -757,7 +758,7 @@ Garcia & Medeiros (2025) - Sinfonia Cap. 5.2.4; Kohavi et al. (2020) - Trustwort
 <details>
 <summary><h3>✅ Aula 26 - [SINFONIA - COMPOSIÇÃO] Checkpoint 2 - Apresentação da Composição Completa</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 13
+**Data:** DD/MM/2026 - Terça | **Semana:** 13
 
 #### 🎯 Objetivo
 Consolidar e apresentar todos os artefatos do Movimento 2 (Composição). Validar design técnico antes de iniciar construção.
@@ -815,7 +816,7 @@ Garcia & Medeiros (2025) - Sinfonia Cap. 6; Fowler (2018) - Refactoring; Martin 
 <details>
 <summary><h3>🎼 Aula 28 - [SINFONIA - ENSAIO] Sprint 2: Integração e Testes Iniciais</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 14
+**Data:** DD/MM/2026 - Terça | **Semana:** 14
 
 #### 🎯 Objetivo
 Continuar desenvolvimento, integrar componentes e implementar testes automatizados iniciais.
@@ -865,7 +866,7 @@ Garcia & Medeiros (2025) - Sinfonia Cap. 6.2.2; Wang et al. (2024); Material da 
 <details>
 <summary><h3>🎼 Aula 30 - [SINFONIA - ENSAIO] AULA ESPECIAL: Segurança, Vulnerabilidades e Confiabilidade de IA</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 15
+**Data:** DD/MM/2026 - Terça | **Semana:** 15
 
 #### 🎯 Objetivo
 Abordar tópicos críticos de segurança de código gerado por IA, vulnerabilidades, hallucinations, e confiabilidade de sistemas de IA.
@@ -915,7 +916,7 @@ Garcia & Medeiros (2025) - Sinfonia Cap. 6.2.3; Material sobre deployment e rele
 <details>
 <summary><h3>✅ Aula 32 - [SINFONIA - ENSAIO] Checkpoint 3 - Demonstração do MVP Funcional</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 16
+**Data:** DD/MM/2026 - Terça | **Semana:** 16
 
 #### 🎯 Objetivo
 Apresentar o MVP funcional completo. Demonstração ao vivo, análise de qualidade e preparação para o lançamento.
@@ -973,7 +974,7 @@ Garcia & Medeiros (2025) - Sinfonia Cap. 7; Material sobre user research e feedb
 <details>
 <summary><h3>🎤 Aula 34 - [SINFONIA - RESSONÂNCIA] Análise de Feedback, Insights e Palestra Convidada</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 17
+**Data:** DD/MM/2026 - Terça | **Semana:** 17
 
 #### 🎯 Objetivo
 Analisar sistematicamente o feedback coletado, gerar insights e tomar decisões baseadas em evidências. Palestra sobre avaliação de sistemas de IA.
@@ -1023,7 +1024,7 @@ Garcia & Medeiros (2025) - Sinfonia completo; Rubrica de avaliação final
 <details>
 <summary><h3>🎼 Aula 36 - [SINFONIA - RESSONÂNCIA] Apresentações Finais - Parte 2 + Retrospectiva e Encerramento</h3></summary>
 
-**Data:** DD/MM/2026 - Quarta | **Semana:** 18
+**Data:** DD/MM/2026 - Terça | **Semana:** 18
 
 #### 🎯 Objetivo
 Apresentação formal dos projetos finais das equipes restantes. Retrospectiva geral da disciplina e encerramento.
@@ -1072,7 +1073,7 @@ Garcia & Medeiros (2025) - Sinfonia completo; Rubrica de avaliação final; Retr
 - **Entregável:** Relatório individual (2 páginas)
 
 ### Palestra 2: Pesquisador Acadêmico
-**Aula 34 | DD/MM/2026 (Quarta)**
+**Aula 34 | DD/MM/2026 (Terça)**
 
 - **Tema:** Avaliação de Sistemas de IA - Estado da Arte
 - **Duração:** 30 min + 10 min Q&A
