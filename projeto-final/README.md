@@ -9,7 +9,7 @@
 
 **Projeto final estruturado pela Metodologia Sinfonia**
 
-[⬅️ Voltar ao README da disciplina](../README.md) · [📅 Planejamento](../PLANEJAMENTO_2026_1.md)
+[⬅️ Voltar ao README da disciplina](../README.md) · [📅 Planejamento](../PLANEJAMENTO.md)
 
 </div>
 
