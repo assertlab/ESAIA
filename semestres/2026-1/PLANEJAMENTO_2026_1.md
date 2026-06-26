@@ -4,7 +4,7 @@
 
 ![Semestre](https://img.shields.io/badge/Semestre-2026.1-orange)
 ![Carga Horária](https://img.shields.io/badge/Carga%20Hor%C3%A1ria-60h-blue)
-![Aulas](https://img.shields.io/badge/Aulas-37%20(0--36)-green)
+![Aulas](https://img.shields.io/badge/Aulas-36-green)
 
 **Cronograma Completo e Detalhado da Disciplina**
 
@@ -20,15 +20,16 @@
 
 | Fase | Aulas | Período | Tema Principal |
 |------|-------|---------|----------------|
-| **[Fase 0](#-fase-0-nivelamento-aula-0)** | Aula 0 | Warmup | 🔧 Nivelamento |
-| **[Fase 1](#-fase-1-fundamentos-aulas-1-7)** | 01-07 | Semanas 01-04 | 📚 Fundamentos + Mini-Projeto 1 |
-| **[Fase 2](#-fase-2-development--testing-aulas-8-14)** | 08-14 | Semanas 05-08 | 💻 Development & Testing + Mini-Projeto 2 |
-| **[Fase 3](#-fase-3-maintenance--exposição-aulas-15-21)** | 15-21 | Semanas 09-12 | 🔄 Maintenance + Movimento Exposição |
-| **[Fase 4](#-fase-4-composição-aulas-22-26)** | 22-26 | Semanas 13-14 | 🎨 Movimento Composição |
-| **[Fase 5](#-fase-5-ensaio-aulas-27-32)** | 27-32 | Semanas 15-17 | 🔨 Movimento Ensaio |
-| **[Fase 6](#-fase-6-ressonância-aulas-33-36)** | 33-36 | Semanas 18-19 | 📊 Movimento Ressonância |
+| **[Fase 1](#-fase-1-fundamentos-aulas-1-7)** | 1-7 | 02/03–23/03 | 📚 Fundamentos: IA no SDLC, Requisitos, Arquitetura |
+| **[Fase 2](#-fase-2-development--testing-projeto-inicial-aulas-8-19)** | 8-19 | 24/03–04/05 | 💻 Development & Testing + Kick-off do Projeto |
+| **[Fase 3](#-fase-3-exposição-aulas-20-23)** | 20-23 | 05/05–18/05 | 🎯 Movimento Exposição |
+| **[Fase 4](#-fase-4-composição-aulas-24-27)** | 24-27 | 19/05–01/06 | 🎨 Movimento Composição |
+| **[Fase 5](#-fase-5-ensaio-aulas-28-32)** | 28-32 | 02/06–16/06 | 🔨 Movimento Ensaio |
+| **[Fase 6](#-fase-6-ressonância-aulas-35-36)** | 35-36 | 29/06–30/06 | 📊 Movimento Ressonância + Apresentações |
 
 **[📥 Download CSV Completo](./recursos/planejamento-2026-1.csv)**
+
+**[🎼 Guia do Projeto Final](./projeto-final/README.md)** — objetivos, 14 artefatos, entregáveis por checkpoint e relatório final
 
 </div>
 
@@ -36,29 +37,44 @@
 
 ## 🗓️ Calendário do Semestre
 
-> 📝 **Nota:** Aulas confirmadas para **segunda-feira (17:00-18:40)** e **terça-feira (18:50-20:30)**
-
-| Sem | Data Seg | Data Ter | Aulas | Tema | Destaque |
-|-----|----------|----------|-------|------|----------|
-| **0** | - | - | 0 | Nivelamento e Setup de Ambiente | 🔧 Pré-semestre |
-| **1** | DD/MM | DD/MM | 01-02 | Intro ESAIA + LLMs e IA Generativa | - |
-| **2** | DD/MM | DD/MM | 03-04 | Requisitos com IA + Priorização e Cenários | - |
-| **3** | DD/MM | DD/MM | 05-06 | Arquitetura com IA + Otimização e Refatoração | - |
-| **4** | DD/MM | DD/MM | 07-08 | CP Mini-Projeto 1 + Desenvolvimento Assistido | ✅ Checkpoint |
-| **5** | DD/MM | DD/MM | 09-10 | Testes com IA + DevOps e CI/CD | - |
-| **6** | DD/MM | DD/MM | 11-12 | Palestra Indústria + Detecção de Bugs | 🎤 Palestra |
-| **7** | DD/MM | DD/MM | 13-14 | Resolução de Bugs + CP Mini-Projeto 2 | ✅ Checkpoint |
-| **8** | DD/MM | DD/MM | 15-16 | Update Management + Kick-off Sinfonia | - |
-| **9** | DD/MM | DD/MM | 17-18 | Definição Domínio/Problema + Empatia/Personas | - |
-| **10** | DD/MM | DD/MM | 19-20 | Missão/Visão + Ideação/Priorização | - |
-| **11** | DD/MM | DD/MM | 21-22 | CP1 Exposição + Prompt Engineering | ✅ Checkpoint 1 🎯 Especial |
-| **12** | DD/MM | DD/MM | 23-24 | Arquitetura C4 Model + Catálogo Prompts | - |
-| **13** | DD/MM | DD/MM | 25-26 | Design Experimento + CP2 Composição | ✅ Checkpoint 2 |
-| **14** | DD/MM | DD/MM | 27-28 | Ensaio Sprint 1 + Sprint 2 Integração | - |
-| **15** | DD/MM | DD/MM | 29-30 | Testes Qualidade + Segurança IA | 🎯 Especial |
-| **16** | DD/MM | DD/MM | 31-32 | Refinamento MVP + CP3 Demo Funcional | ✅ Checkpoint 3 |
-| **17** | DD/MM | DD/MM | 33-34 | Lançamento Simulado + Palestra Pesquisador | 🎤 Palestra |
-| **18** | DD/MM | DD/MM | 35-36 | Apresentações Finais 1 e 2 | ✅ Checkpoint 4 |
+| Data | Dia | Aula | Tema | Destaque |
+|------|-----|------|------|----------|
+| 02/03/2026 | Segunda | 1 | Introdução à Engenharia de Software Assistida por IA | - |
+| 03/03/2026 | Terça | 2 | Modelos de Linguagem e IA Generativa na ES | - |
+| 09/03/2026 | Segunda | 3 | Coleta de Requisitos e Análise Assistida por IA | - |
+| 10/03/2026 | Terça | 4 | Priorização e Design de Cenários com IA | - |
+| 16/03/2026 | Segunda | 5 | Arquitetura de Software e Design Assistido por IA | - |
+| 17/03/2026 | Terça | 6 | Otimização de Arquitetura e Refatoração com IA | - |
+| 23/03/2026 | Segunda | 7 | Desenvolvimento de Código e Práticas Assistidas por  | - |
+| 24/03/2026 | Terça | 8 | Pré-Kick-off do Projeto Final | - |
+| 30/03/2026 | Segunda | 9 | Palestra Convidada: Pair Programming na Era da IA -  | 🎤 Palestra |
+| 31/03/2026 | Terça | 10 | Testes de Software e Otimização de Código com IA | - |
+| 06/04/2026 | Segunda | 11 | DevOps e Integração Contínua (CI/CD) com IA | - |
+| 07/04/2026 | Terça | 12 | Atividade Prática Supervisionada (APS): Fundamentos  | 💻 APS |
+| 13/04/2026 | Segunda | 13 | Sprint Week (ICSE) — Segunda: Refinamento Autônomo d | 🏃 Sprint Week |
+| 14/04/2026 | Terça | 14 | Sprint Week (ICSE) — Terça: Consolidação da Proposta | 🏃 Sprint Week |
+| 20/04/2026 | Segunda | 15 | Tiradentes - Feriado Nacional | 🟥 Feriado |
+| 21/04/2026 | Terça | 16 | Tiradentes - Feriado Nacional | 🟥 Feriado |
+| 27/04/2026 | Segunda | 17 | Manutenção e Detecção de Bugs Assistida por IA | - |
+| 28/04/2026 | Terça | 18 | Resolução de Bugs e Otimização com IA | - |
+| 04/05/2026 | Segunda | 19 | Gerenciamento de Atualizações e Evolução de Software | - |
+| 05/05/2026 | Terça | 20 | [EXPOSIÇÃO] Definição de Problema e Criação de Perso | - |
+| 11/05/2026 | Segunda | 21 | [EXPOSIÇÃO] Alinhamento Estratégico e Ideação de Sol | - |
+| 12/05/2026 | Terça | 22 | [EXPOSIÇÃO] Priorização Final e Definição de MVP | - |
+| 18/05/2026 | Segunda | 23 | [EXPOSIÇÃO] Checkpoint 1 - Apresentação da Exposição | ✅ Checkpoint 1 |
+| 19/05/2026 | Terça | 24 | [COMPOSIÇÃO] Prompt Engineering e Arquitetura com C4 | - |
+| 25/05/2026 | Segunda | 25 | [COMPOSIÇÃO] Design de Prompts e Catálogo de Registr | - |
+| 26/05/2026 | Terça | 26 | [COMPOSIÇÃO] Design de Experimento e Definição de MV | - |
+| 01/06/2026 | Segunda | 27 | [COMPOSIÇÃO] Checkpoint 2 - Apresentação da Composiç | ✅ Checkpoint 2 |
+| 02/06/2026 | Terça | 28 | [ENSAIO] Sprint 1 - Início da Construção | - |
+| 08/06/2026 | Segunda | 29 | [ENSAIO] Sprint 2 - Integração e Testes Iniciais | - |
+| 09/06/2026 | Terça | 30 | [ENSAIO] Sprint 3 - Qualidade e Segurança | 🎯 Especial |
+| 15/06/2026 | Segunda | 31 | [ENSAIO] Sprint 4 - Refinamento e Checklist de Lança | - |
+| 16/06/2026 | Terça | 32 | [ENSAIO] Checkpoint 3 - Demonstração do MVP Funciona | ✅ Checkpoint 3 |
+| 22/06/2026 | Segunda | 33 | Período de São João com Feriado Estadual | 🟥 Feriado |
+| 23/06/2026 | Terça | 34 | Período de São João com Feriado Estadual | 🟥 Feriado |
+| 29/06/2026 | Segunda | 35 | [RESSONÂNCIA] Apresentações Finais - Parte 1 | ✅ Entrega Final |
+| 30/06/2026 | Terça | 36 | [RESSONÂNCIA] Apresentações Finais - Parte 2 + Retro | ✅ Entrega Final |
 
 ---
 
@@ -67,982 +83,706 @@
 | Ícone | Significado | Ícone | Significado |
 |-------|-------------|-------|-------------|
 | 🎯 | Objetivo | 📝 | Conteúdo |
-| 💻 | Atividade Prática | 📚 | Material de Leitura |
+| 💻 | Atividade Prática | 📚 | Material/Referência |
 | 📦 | Entregável | ✅ | Checkpoint |
 | 🎤 | Palestra | 🎼 | Sinfonia |
-| ⚠️ | Atenção | 💡 | Dica |
-| 🔧 | Nivelamento/Setup | - | Aula Regular |
-
----
-
-## 🔧 FASE 0: Nivelamento (Aula 0)
-
-<details>
-<summary><h3>📅 Aula 00 - Nivelamento e Setup de Ambiente</h3></summary>
-
-**Data:** DD/MM/2026 - Pré-Semestre | **Semana:** 0
-
-#### 🎯 Objetivo
-Preparar os alunos com conhecimentos básicos e ferramentas necessárias para a disciplina. Nivelar conhecimentos de Python/TypeScript, Git, e APIs.
-
-#### 📝 Conteúdo Detalhado
-Setup de ambiente de desenvolvimento (Python/TypeScript, IDEs, Git, GitHub). Introdução prática a APIs de LLMs (OpenAI, Anthropic). Revisão de conceitos de programação orientada a objetos e testes unitários. Configuração de contas e créditos para ferramentas de IA.
-
-#### 💻 Atividades
-Exercício hands-on: Hello World com um LLM via API. Configuração de ambiente em grupo com suporte de monitores/professores. Quiz de diagnóstico sobre conhecimentos prévios.
-
-#### 📚 Material Prévio
-Instalar Python 3.10+ e/ou Node.js 18+, Git, VS Code ou IDE de preferência. Criar conta no GitHub. Assistir vídeo introdutório sobre LLMs: ["But what is a GPT?" - 3Blue1Brown (~27 min)](https://youtu.be/yMQPQuz5WpA?si=Rv3a5uWzdEH-SjQU), ou ["Intro to Large Language Models" - Andrej Karpathy (~60 min)](https://www.youtube.com/watch?v=zjkBMFhNj_g).
-
-#### 📦 Entregáveis
-Ambiente configurado e funcional. Comprovação de execução do exercício Hello World.
-
-#### 📖 Referências
-Tutorial e documentação fornecidos
-
-</details>
+| 🏃 | Sprint Week | 🟥 | Feriado |
 
 ---
 
 ## 📚 FASE 1: Fundamentos (Aulas 1-7)
 
-**Semanas 1-4 | Requirements & Design + Mini-Projeto 1**
+**02/03–23/03 | IA no SDLC, Requisitos, Design e Arquitetura**
 
 <details>
-<summary><h3>📅 Aula 01 - Introdução à Engenharia de Software Assistida por IA</h3></summary>
+<summary><h3>📅 Aula 1 - Introdução à Engenharia de Software Assistida por IA</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 1
+**Data:** 02/03/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Apresentar o escopo, objetivos e impacto da IA no ciclo de vida do desenvolvimento de software (SDLC).
+Apresentar o escopo e impacto da IA no ciclo de vida do desenvolvimento de software (SDLC).
 
 #### 📝 Conteúdo Detalhado
-Visão holística do impacto da IA no SDLC. Introdução aos conceitos fundamentais de IA, Machine Learning e Deep Learning. Tipos de IA aplicáveis à ES (supervised, unsupervised, reinforcement learning). Papel dos LLMs na modernização da engenharia de software. Apresentação do plano da disciplina, projetos e sistema de avaliação. Introdução à metodologia Sinfonia como framework do projeto final.
+Visão holística do impacto da IA no SDLC. Introdução aos conceitos fundamentais de IA, Machine Learning e Deep Learning. Papel dos LLMs na modernização da engenharia de software. Apresentação do plano da disciplina e metodologia Sinfonia.
 
 #### 💻 Atividades
-Debate: expectativas dos alunos em relação à disciplina e aos projetos. Discussão em grupo: "Como a IA pode transformar o trabalho de um engenheiro de software?" Apresentação do Código de Conduta para Uso Ético de IA. Overview da metodologia Sinfonia e seus 4 movimentos.
+Debate sobre expectativas. Discussão: 'Como a IA pode transformar o trabalho de um engenheiro de software?' Apresentação do Código de Conduta para Uso Ético de IA.
 
-#### 📚 Material Prévio
-Ler: Seção 1 do artigo "The Impact of AI on Software Engineering" (Silvio Meira). Assistir: Vídeo introdutório sobre o estado da arte em AI for SE. Ler: Capítulo 1 do livro Sinfonia.
-
-#### 📦 Entregáveis
-Leitura, compreensão e aceite/compromisso do Código de Conduta. Reflexão individual (1 página) sobre expectativas.
-
-#### 📖 Referências
-Meira (2024) - Seção 1; Fan et al. (2023); Russell & Norvig (2020) - Cap. 1; Garcia & Medeiros (2025) - Sinfonia Cap. 1-2
+#### 📚 Referências
+Meira (2024) Seção 1; Fan et al. (2023); Russell & Norvig (2020) Cap. 1; Garcia & Medeiros (2025) Sinfonia Cap. 1-2
 
 </details>
 
 <details>
-<summary><h3>📅 Aula 02 - Modelos de Linguagem e IA Generativa na ES</h3></summary>
+<summary><h3>📅 Aula 2 - Modelos de Linguagem e IA Generativa na ES</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 1
+**Data:** 03/03/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Compreender a base teórica de LLMs (Large Language Models) e seu papel específico na Engenharia de Software.
+Compreender a base teórica de LLMs e seu papel específico na Engenharia de Software.
 
 #### 📝 Conteúdo Detalhado
-Fundamentos de LLMs: arquitetura Transformer, pré-treinamento e fine-tuning. Como LLMs aprendem: tokenização, embeddings, attention mechanism. Capacidades e limitações dos LLMs: geração de texto/código, compreensão, raciocínio. IA Generativa em contextos de engenharia: code completion, documentation, test generation. Panorama de modelos: GPT-4, Claude, Gemini, Codex, CodeLlama.
+Fundamentos de LLMs: arquitetura Transformer, pré-treinamento e fine-tuning. Tokenização, embeddings, attention mechanism. Capacidades e limitações dos LLMs. Panorama de modelos: GPT-4, Claude, Gemini, Codex.
 
 #### 💻 Atividades
-Exercício prático: Interagir com diferentes LLMs (ChatGPT, Claude) e comparar respostas para uma mesma tarefa de programação. Discussão: impactos dos LLMs no mercado de trabalho em TI - substituição vs. augmentation.
+Exercício prático: Interagir com diferentes LLMs e comparar respostas. Discussão: impactos dos LLMs no mercado de trabalho em TI.
 
-#### 📚 Material Prévio
-Ler: Wong et al. (2023) sobre NLG e NLU para código. Explorar: Playground de APIs (OpenAI, Anthropic).
-
-#### 📦 Entregáveis
-Relatório comparativo (2-3 páginas) sobre diferentes LLMs testados, incluindo pontos fortes e limitações.
-
-#### 📖 Referências
-Fan et al. (2023) - Seção sobre LLMs; Wong et al. (2023); Hou et al. (2024)
+#### 📚 Referências
+Fan et al. (2023); Wong et al. (2023); Hou et al. (2024)
 
 </details>
 
 <details>
-<summary><h3>📅 Aula 03 - Coleta de Requisitos e Análise Assistida por IA</h3></summary>
+<summary><h3>📅 Aula 3 - Coleta de Requisitos e Análise Assistida por IA</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 2
+**Data:** 09/03/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Aprender a usar IA, especialmente NLP, para analisar e coletar requisitos de software de forma eficiente.
+Aprender a usar IA para analisar e coletar requisitos de software.
 
 #### 📝 Conteúdo Detalhado
-Uso de NLP para análise de documentos de requisitos: extração de features, identificação de stakeholders, detecção de inconsistências e ambiguidades. Técnicas de análise semântica para compreender relações entre requisitos. Automação da elicitação de requisitos através de chatbots e assistentes virtuais. Ferramentas: BERT, GPT para análise de texto de requisitos.
+Uso de NLP para análise de documentos de requisitos: extração de features, identificação de stakeholders, detecção de inconsistências. Técnicas de análise semântica. Ferramentas: BERT, GPT.
 
 #### 💻 Atividades
-Exercício prático: Usar uma ferramenta de IA (ex: GPT-4 via API ou interface) para analisar um documento de requisitos de um sistema real e identificar inconsistências, features e prioridades. Compartilhamento de resultados em grupo: o que a IA encontrou? Quais foram os erros?
+Exercício prático: Usar IA para analisar documento de requisitos e identificar inconsistências, features e prioridades. Compartilhamento de resultados.
 
-#### 📚 Material Prévio
-Ler: Zhao et al. (2021) sobre NLP para Requirements Engineering. Revisar: documento de requisitos de exemplo (fornecido).
-
-#### 📦 Entregáveis
-Análise de requisitos assistida por IA: documento com features extraídas, inconsistências identificadas, e avaliação crítica da qualidade da análise da IA.
-
-#### 📖 Referências
-Zhao et al. (2021); Luitel et al. (2023); Meira (2024) - Seção 2.1
+#### 📚 Referências
+Zhao et al. (2021); Luitel et al. (2023); Meira (2024) Seção 2.1
 
 </details>
 
 <details>
-<summary><h3>📅 Aula 04 - Priorização e Design de Cenários com IA</h3></summary>
+<summary><h3>📅 Aula 4 - Priorização e Design de Cenários com IA</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 2
+**Data:** 10/03/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Explorar como a IA pode aprimorar a priorização de requisitos e o design de cenários de uso (user stories, personas).
+Explorar como a IA aprimora priorização de requisitos e design de cenários de uso.
 
 #### 📝 Conteúdo Detalhado
-Aplicação de IA na priorização de requisitos baseada em valor de negócio, viabilidade técnica, e necessidades do cliente (técnicas de ML para ranking). Uso de IA para gerar cenários de uso detalhados e realistas a partir de requisitos. Criação de personas assistida por IA: análise de dados de usuários, comportamentos e demografia. Ferramentas: PersonaGen e outras. Conexão com Persona Model Canvas da Sinfonia.
+Aplicação de IA na priorização baseada em valor de negócio e viabilidade técnica. Geração de cenários de uso e personas. Persona Model Canvas da Sinfonia.
 
 #### 💻 Atividades
-Atividade em grupo: Gerar personas para um sistema real (e-commerce, saúde, educação) usando uma ferramenta de IA. Cada grupo apresenta suas personas e discute a qualidade e realismo. Comparação com personas criadas manualmente. Introdução ao Persona Model Canvas.
+Atividade em grupo: Gerar personas usando IA. Apresentação e discussão da qualidade. Introdução ao Persona Model Canvas.
 
-#### 📚 Material Prévio
-Ler: Salminen et al. (2022) sobre desenvolvimento de personas. Explorar: ferramenta PersonaGen (se disponível) ou GPT-4 para geração de personas. Ler: Sinfonia - Seção sobre Persona Model Canvas.
-
-#### 📦 Entregáveis
-Mini-relatório: 3-4 personas geradas, incluindo justificativa e análise crítica da contribuição da IA.
-
-#### 📖 Referências
-Salminen et al. (2022); Zhang et al. (2023); Meira (2024) - Seções 2.2, 2.3, 2.4; Garcia & Medeiros (2025) - Sinfonia Cap. 4
+#### 📚 Referências
+Salminen et al. (2022); Zhang et al. (2023); Meira (2024) Seções 2.2-2.4; Garcia & Medeiros (2025) Sinfonia Cap. 4
 
 </details>
 
 <details>
-<summary><h3>📅 Aula 05 - Arquitetura de Software e Design Assistido por IA</h3></summary>
+<summary><h3>📅 Aula 5 - Arquitetura de Software e Design Assistido por IA</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 3
+**Data:** 16/03/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Entender a aplicação da IA na concepção, análise e otimização de arquiteturas de software.
+Entender aplicação da IA na concepção e otimização de arquiteturas de software.
 
 #### 📝 Conteúdo Detalhado
-Análise de ferramentas de IA para design de arquitetura: geração de diagramas, recomendações de padrões arquiteturais (MVC, microservices, event-driven). Como LLMs podem justificar escolhas arquitetônicas e facilitar comunicação entre stakeholders técnicos e não-técnicos. Avaliação de decisões arquitetônicas com IA: trade-offs, quality attributes (performance, scalability, security). Introdução ao C4 Model.
+Ferramentas de IA para design de arquitetura: geração de diagramas, recomendações de padrões arquiteturais. Avaliação de decisões arquitetônicas com IA. Introdução ao C4 Model.
 
 #### 💻 Atividades
-Estudo de caso: Análise de uma arquitetura de software existente para identificar pontos de melhoria com o auxílio de IA (refatoração arquitetural, identificação de acoplamento excessivo). Discussão em grupo sobre as recomendações da IA. Exercício: criar um C4 Model (Level 1 - Context) para um sistema simples.
+Estudo de caso: Análise de arquitetura existente com IA. Exercício: criar C4 Model (Level 1) para um sistema simples.
 
-#### 📚 Material Prévio
-Ler: Belzner (2023) sobre AI-assisted architecture. Revisar: conceitos de arquitetura de software (padrões, estilos). Explorar: C4 Model documentation.
-
-#### 📦 Entregáveis
-Análise arquitetural: documento com pontos de melhoria identificados pela IA e avaliação crítica das sugestões. C4 Model (Level 1) do sistema analisado.
-
-#### 📖 Referências
-Belzner (2023); Venters et al. (2018); Meira (2024) - Seção 3.1; C4 Model documentation
+#### 📚 Referências
+Belzner (2023); Venters et al. (2018); Meira (2024) Seção 3.1; C4 Model documentation
 
 </details>
 
 <details>
-<summary><h3>📅 Aula 06 - Otimização de Arquitetura e Refatoração com IA</h3></summary>
+<summary><h3>📅 Aula 6 - Otimização de Arquitetura e Refatoração com IA</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 3
+**Data:** 17/03/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Discutir o uso de IA para otimizar arquiteturas existentes e refatorar código em larga escala.
+Discutir uso de IA para otimizar arquiteturas e refatorar código em larga escala.
 
 #### 📝 Conteúdo Detalhado
-Estratégias de otimização de arquitetura com IA: identificação de gargalos, sugestões de paralelização, otimização de consultas. Refatoração de código assistida por IA: identificação de code smells, sugestões de padrões de refatoração, melhoria de modularidade e coesão. Ferramentas: SonarQube + AI, refactoring tools baseados em LLMs.
+Estratégias de otimização: identificação de gargalos, paralelização. Refatoração assistida: code smells, padrões de refatoração. Ferramentas: SonarQube + AI.
 
 #### 💻 Atividades
-Exercício de refatoração: Usar uma ferramenta de IA (GitHub Copilot, Claude Code, ou script customizado) para refatorar um trecho de código legado (fornecido). Avaliar as mudanças propostas: mantém funcionalidade? Melhora legibilidade? Apresentação de resultados: antes e depois.
+Exercício de refatoração: Usar IA para refatorar código legado. Avaliar mudanças propostas. Apresentação de resultados.
 
-#### 📚 Material Prévio
-Ler: Artigos sobre code refactoring com IA. Preparar: ambiente com ferramenta de refatoração (GitHub Copilot ou similar).
-
-#### 📦 Entregáveis
-Código refatorado + relatório de análise: comparação antes/depois, métricas de qualidade (complexidade ciclomática, acoplamento), reflexão sobre limitações da IA.
-
-#### 📖 Referências
-Hakimi et al. (2023); Vijayvergiya et al. (2024); Meira (2024) - Seção 3.2
+#### 📚 Referências
+Hakimi et al. (2023); Vijayvergiya et al. (2024); Meira (2024) Seção 3.2
 
 </details>
 
 <details>
-<summary><h3>✅ Aula 07 - Checkpoint Mini-Projeto 1: Requirements & Design com IA</h3></summary>
+<summary><h3>📅 Aula 7 - Desenvolvimento de Código e Práticas Assistidas por IA</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 4
+**Data:** 23/03/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Aplicar os conceitos aprendidos em um mini-projeto integrando IA em Requirements e Design.
+Capacitar uso de ferramentas de IA para assistência direta à codificação.
 
 #### 📝 Conteúdo Detalhado
-Apresentação dos mini-projetos de cada equipe (5-10 min por equipe). Cada equipe demonstra uma aplicação prática de IA em Requirements gathering/analysis ou Software Design/Architecture. Feedback do professor e dos colegas (peer review estruturado). Discussão sobre desafios enfrentados e lições aprendidas.
+Ferramentas: GitHub Copilot, Claude Code, Cursor AI. Modelos de code completion, context awareness. Prompt engineering para código. Benefícios e limitações.
 
 #### 💻 Atividades
-Apresentações relâmpago (lightning talks) de 7-10 minutos. Sessão de Q&A após cada apresentação. Peer review: cada equipe avalia outra usando rubrica fornecida.
+Exercício hands-on: Usar Copilot/Claude Code para resolver problema de programação. Comparar com codificação manual.
 
-#### 📚 Material Prévio
-Finalizar Mini-Projeto 1: documentação, código (se aplicável), slides de apresentação.
-
-#### 📦 Entregáveis
-Slides de apresentação. Código/protótipo funcional. Documento de reflexão (1-2 páginas): o que funcionou, o que não funcionou, lições aprendidas.
-
-#### 📖 Referências
-Material das Aulas 1-6; SWEBOK
+#### 📚 Referências
+Poldrack et al. (2024); Wong et al. (2023); Meira (2024) Seção 4.1
 
 </details>
 
----
+## 💻 FASE 2: Development & Testing + Projeto Inicial (Aulas 8-19)
 
-## 💻 FASE 2: Development & Testing (Aulas 8-14)
-
-**Semanas 5-8 | Codificação, Testes e DevOps + Mini-Projeto 2**
+**24/03–04/05 | Codificação, Testes, DevOps, Manutenção + Kick-off do Projeto Final**
 
 <details>
-<summary><h3>📅 Aula 08 - Desenvolvimento de Código e Práticas Assistidas por IA</h3></summary>
+<summary><h3>📅 Aula 8 - Pré-Kick-off do Projeto Final</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 4
+**Data:** 24/03/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Capacitar os alunos a usar ferramentas de IA para assistência direta à codificação (code completion, generation, explanation).
+Apresentar o escopo e os entregáveis do projeto final, formar as equipes de trabalho e orientar a escolha de temas por meio de um cardápio estruturado de domínios do SDLC, preparando os alunos para o início formal da Metodologia Sinfonia na Aula 14.
 
 #### 📝 Conteúdo Detalhado
-Ferramentas de IA para assistência à codificação: GitHub Copilot, Claude Code, Cursor AI, Aider. Como funcionam: modelos de code completion, context awareness. Técnicas básicas de prompt engineering para geração de código eficaz. Benefícios: aumento de produtividade, redução de erros boilerplate. Limitações: código incorreto, dependências de contexto, questões de licenciamento.
+Apresentação dos dois entregáveis do projeto final: a aplicação assistida por IA e a documentação do workflow de desenvolvimento com IA, incluindo registro de economicidade (consumo de tokens, esforço humano autodeclarado e estimativa contrafactual de custo). Templates dos documentos técnicos obrigatórios: README, Documento de Arquitetura C4, Catálogo de Registros de Prompt e Workflow Document. Formação de equipes híbrida (núcleo livre com ajustes do professor). Cardápio de 10 domínios-problema organizados em três camadas de maturidade do uso de IA no SDLC (território explorado, em expansão e aberto), com propósito, usuários, restrições e trabalhos relacionados por domínio.
 
 #### 💻 Atividades
-Exercício prático hands-on: Usar GitHub Copilot ou Claude Code para resolver um problema de programação (algoritmo, estrutura de dados). Comparar a experiência com codificação manual. Discussão: quando confiar na IA? Como validar código gerado?
-
-#### 📚 Material Prévio
-Configurar GitHub Copilot ou Claude Code. Ler: Poldrack et al. (2024) sobre AI-assisted coding. Assistir: Tutorial sobre prompt engineering básico para code generation.
+Formação das 5 equipes de 5 alunos (sorteio com seed=42 como sugestão base, com liberdade de reorganização). Leitura e discussão do documento de escopo e entregáveis. Trabalho em equipe para produção da Pré-Proposta (PRE_PROPOSTA.md): escolha de domínio, descrição do problema, hipótese de solução com IA, forma da aplicação e riscos identificados. Tarefa assíncrona: refinamento da proposta em PROPOSTA_v1.md com pesquisa de trabalhos relacionados, detalhamento do usuário-alvo e avaliação de viabilidade, a submeter antes da próxima aula.
 
 #### 📦 Entregáveis
-Código desenvolvido com assistência de IA + relatório de experiência: tempo economizado, qualidade do código, número de sugestões aceitas vs. rejeitadas.
+PRE_PROPOSTA.md (domínio, problema, hipótese de solução, riscos). Equipes formadas. Tarefa assíncrona: PROPOSTA_v1.md.
 
-#### 📖 Referências
-Poldrack et al. (2024); Wong et al. (2023); Meira (2024) - Seção 4.1
+#### 📚 Referências
+Aula 8 - Pré-Kick-off do Projeto Final
 
 </details>
 
 <details>
-<summary><h3>📅 Aula 09 - Testes de Software e Otimização de Código com IA</h3></summary>
+<summary><h3>📅 Aula 9 - 🎤 Palestra Convidada: Pair Programming na Era da IA - Dinâmicas de Colaboração com Assistentes de Código (Prof Cleidson de Souza, UFPA)</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 5
+**Data:** 30/03/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Explorar o uso da IA para automação de testes, geração de test cases e otimização de código.
+Expor os alunos a evidências empíricas sobre como assistentes de código baseados em IA transformam práticas colaborativas de desenvolvimento de software, a partir da experiência de um pesquisador da área de aspectos humanos e colaborativos da engenharia de software.
 
 #### 📝 Conteúdo Detalhado
-Geração automática de casos de teste com IA: unit tests, integration tests, edge cases. Como LLMs podem identificar cenários de teste que desenvolvedores podem negligenciar. Automação do processo de teste: frameworks de teste + IA, continuous testing. Otimização de código: identificação de gargalos de performance, sugestões de melhoria algorítmica. Ferramentas: AI-powered testing tools (ex: Diffblue, Mabl). Conexão com Canvas de Testes e Validação da Sinfonia.
+Palestra do Prof. Cleidson de Souza (UFPA) sobre os impactos do uso de assistentes de código com IA — como o GitHub Copilot — em sessões de pair programming em contexto real de desenvolvimento. Discussão sobre a transição do modelo diádico tradicional (dois desenvolvedores) para um modelo triádico mediado por IA, no qual a dupla precisa coordenar suas ações em torno de sugestões geradas por um agente externo. Padrões observados de colaboração: escrita colaborativa de prompts como atividade de design compartilhado; estratégias de aceitação, adaptação e rejeição de código gerado por IA; impactos na carga cognitiva, fadiga e percepção de produtividade; e evolução das normas de confiança ao longo do tempo de uso. Implicações práticas para equipes que adotam IA em fluxos de trabalho colaborativos.
 
 #### 💻 Atividades
-Exercício: Usar uma ferramenta de teste automatizado com IA para gerar casos de teste para uma função de software (fornecida). Avaliar a cobertura de testes e a qualidade dos test cases gerados. Discussão: a IA pode substituir QA engineers?
+Palestra interativa com sessão de perguntas e respostas. Discussão mediada com a turma sobre as conexões entre os padrões observados na pesquisa e as experiências dos alunos no uso de ferramentas de IA durante as aulas práticas da disciplina. Reflexão sobre como os conceitos de confiança, responsabilidade epistêmica e débito técnico discutidos na palestra se conectam com os entregáveis do projeto final — em especial o Workflow Document e o Catálogo de Registros de Prompt.
 
-#### 📚 Material Prévio
-Ler: Wang et al. (2024) sobre LLMs para software testing. Revisar: conceitos de testes de software (white-box, black-box, coverage). Ler: Sinfonia - Canvas de Testes e Validação.
-
-#### 📦 Entregáveis
-Test suite gerada por IA + análise de cobertura e qualidade. Relatório: pontos fortes e fracos dos testes gerados, casos que a IA falhou em cobrir.
-
-#### 📖 Referências
-Wang et al. (2024); Hourani et al. (2019); Meira (2024) - Seção 4.1; Garcia & Medeiros (2025) - Sinfonia Cap. 6
+#### 📚 Referências
+Material fornecido pelo palestrante
 
 </details>
 
 <details>
-<summary><h3>📅 Aula 10 - DevOps e Integração Contínua (CI/CD) com IA</h3></summary>
+<summary><h3>📅 Aula 10 - Testes de Software e Otimização de Código com IA</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 5
+**Data:** 31/03/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Aprender a integrar IA em processos de DevOps e pipelines de CI/CD para maior eficiência e confiabilidade.
+Explorar uso da IA para automação de testes e otimização de código.
 
 #### 📝 Conteúdo Detalhado
-Integração de IA em pipelines de CI/CD: automação de builds, testes, deployments. Predictive analytics em DevOps: antecipar falhas de deployment, prever tempo de build, otimizar alocação de recursos. AI-driven monitoring e alerting: detecção de anomalias em produção, auto-healing systems. Ferramentas: Jenkins + AI plugins, GitHub Actions com AI, Kubernetes + AI para orquestração.
+Geração automática de casos de teste: unit tests, integration tests, edge cases. Otimização de código: gargalos, melhoria algorítmica. Ferramentas AI-powered.
 
 #### 💻 Atividades
-Atividade em grupo: Desenhar um pipeline de CI/CD com componentes de IA (ex: testes automatizados com IA, deployment inteligente, monitoramento preditivo). Apresentar o diagrama e discutir os benefícios de cada componente de IA no pipeline. Discussão: quais são os riscos de automação excessiva?
+Exercício: Usar ferramenta de teste automatizado com IA. Avaliar cobertura e qualidade dos test cases gerados.
 
-#### 📚 Material Prévio
-Ler: Fu et al. (2024) sobre AI for DevSecOps. Explorar: GitHub Actions documentation, Jenkins AI plugins.
-
-#### 📦 Entregáveis
-Diagrama de pipeline CI/CD com componentes de IA + descrição detalhada de cada componente e seus benefícios/riscos.
-
-#### 📖 Referências
-Fu et al. (2024); Vemuri & Venigandla (2022); Houerbi et al. (2024); Meira (2024) - Seção 4.2
+#### 📚 Referências
+Wang et al. (2024); Hourani et al. (2019); Meira (2024) Seção 4.1; Garcia & Medeiros (2025) Sinfonia Cap. 6
 
 </details>
 
 <details>
-<summary><h3>🎤 Aula 11 - Palestra Convidada: IA em Produção - Experiência da Indústria</h3></summary>
+<summary><h3>📅 Aula 11 - DevOps e Integração Contínua (CI/CD) com IA</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 6
+**Data:** 06/04/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Expor os alunos a aplicações reais de IA na engenharia de software através da experiência de um profissional da indústria.
+Aprender a integrar IA em processos de DevOps e pipelines de CI/CD.
 
 #### 📝 Conteúdo Detalhado
-Palestra de 60-70 minutos com profissional de empresa líder em tecnologia (ex: Google, Amazon, Microsoft, startup local). Tópicos: como a empresa usa IA em seus processos de desenvolvimento, casos de sucesso e fracasso, desafios de implementação em larga escala, impacto na produtividade e qualidade. Q&A com os alunos (20-30 minutos).
+Integração de IA em pipelines: automação de builds, testes, deployments. Predictive analytics. AI-driven monitoring. Ferramentas: Jenkins + AI, GitHub Actions.
 
 #### 💻 Atividades
-Palestra interativa com sessão de perguntas e respostas. Os alunos devem preparar pelo menos 2 perguntas cada para o palestrante (submeter previamente).
+Atividade em grupo: Desenhar pipeline CI/CD com componentes de IA. Apresentar diagrama e discutir benefícios.
 
-#### 📚 Material Prévio
-Pesquisar sobre a empresa do palestrante e suas iniciativas de IA. Preparar perguntas relevantes e thoughtful.
-
-#### 📦 Entregáveis
-Relatório individual (2 páginas): principais insights da palestra, como os conceitos se conectam com o aprendizado em sala, reflexão sobre carreira.
-
-#### 📖 Referências
-Material fornecido pelo palestrante (se disponível)
+#### 📚 Referências
+Fu et al. (2024); Vemuri & Venigandla (2022); Houerbi et al. (2024); Meira (2024) Seção 4.2
 
 </details>
 
 <details>
-<summary><h3>📅 Aula 12 - Manutenção e Detecção de Bugs Assistida por IA</h3></summary>
+<summary><h3>📅 Aula 12 - 💻 Atividade Prática Supervisionada (APS): Fundamentos de IA Aplicada ao Desenvolvimento de Software</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 6
+**Data:** 07/04/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Capacitar os alunos a usar IA para detectar e prever bugs de forma proativa.
+Desenvolver fluência prática no uso de assistentes de IA (com ênfase no Claude e no Claude Code) por meio de cursos autoguiados, capacitando os alunos a utilizar essas ferramentas de forma eficaz, eficiente, ética e segura no contexto do desenvolvimento de software.
 
 #### 📝 Conteúdo Detalhado
-Técnicas de Machine Learning e Deep Learning para detecção automática de bugs: classificadores, redes neurais, análise estática + ML. Uso de IA para identificar padrões que correlacionam com bugs: métricas de complexidade (cyclomatic complexity), histórico de mudanças (churn), code smells. Ferramentas: DeepCode, Snyk, SonarQube com AI, bug prediction models.
+Atividade realizada de forma assíncrona em substituição à aula presencial cancelada em função das chuvas em Recife. Três cursos obrigatórios: (1) Claude 101, uso do Claude para tarefas cotidianas de trabalho, funcionalidades principais e recursos para aprendizado avançado; (2) Claude Code in Action, uso prático do Claude Code para acelerar o fluxo de desenvolvimento; (3) AI Fluency: Framework & Foundations, colaboração com sistemas de IA de forma eficaz, eficiente, ética e segura.
 
 #### 💻 Atividades
-Atividade: Usar uma ferramenta de detecção de bugs baseada em IA (ex: DeepCode, CodeQL + AI model) para escanear um projeto de código open-source. Analisar os resultados: quais bugs foram detectados? Falsos positivos? Discussão: confiabilidade dos resultados.
-
-#### 📚 Material Prévio
-Ler: Khleel & Nehéz (2023) sobre ML para bug prediction. Preparar: ambiente com ferramenta de análise estática (SonarQube, DeepCode).
+Conclusão individual dos três cursos indicados com envio dos respectivos certificados de conclusão como comprovação de participação. Atividade de caráter formativo, computada na componente de presença e participação da disciplina.
 
 #### 📦 Entregáveis
-Relatório de análise: bugs detectados, classificação por severidade, análise de falsos positivos/negativos, avaliação da utilidade da ferramenta.
-
-#### 📖 Referências
-Khleel & Nehéz (2023); Thudumu et al. (2020); Meira (2024) - Seção 5.1
+Certificados de conclusão dos três cursos (Claude 101, Claude Code in Action, AI Fluency).
 
 </details>
 
 <details>
-<summary><h3>📅 Aula 13 - Resolução de Bugs e Otimização com IA</h3></summary>
+<summary><h3>📅 Aula 13 - 🏃 Sprint Week (ICSE) — Segunda: Refinamento Autônomo da Proposta de Projeto</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 7
+**Data:** 13/04/2026 - Segunda | **Sala:** Grad01
+
+#### 🎯 Objetivo
+Avançar no refinamento da proposta de projeto de forma autônoma, aprofundando a definição do problema, a pesquisa de trabalhos relacionados e a hipótese de solução com IA, com base no feedback recebido na Aula 8.
+
+#### 📝 Conteúdo Detalhado
+Semana de trabalho autônomo sem aula presencial — professor no ICSE (Rio de Janeiro). As equipes trabalham no refinamento da PROPOSTA_v1.md com base na pré-proposta elaborada na Aula 8 e no feedback do professor. Foco: consolidar a definição do problema na perspectiva do usuário, pesquisar e registrar ao menos três trabalhos relacionados, detalhar a hipótese de solução com IA (o que o LLM fará especificamente no fluxo), e esboçar o escopo do MVP. Professor disponível por e-mail e Discord para dúvidas pontuais.
+
+#### 💻 Atividades
+Trabalho autônomo em equipe na PROPOSTA_v1.md; foco em: (1) refinar a descrição do problema e do usuário-alvo; (2) pesquisar trabalhos relacionados e registrar os gaps que a proposta pretende endereçar; (3) detalhar a hipótese de solução com IA; (4) definir escopo preliminar do MVP. Atualização do repositório GitHub da equipe com o progresso. Professor disponível por e-mail e Discord para dúvidas.
+
+#### 📦 Entregáveis
+PROPOSTA_v1.md em refinamento no repositório da equipe.
+
+</details>
+
+<details>
+<summary><h3>📅 Aula 14 - 🏃 Sprint Week (ICSE) — Terça: Consolidação da Proposta e Início do Workflow Document</h3></summary>
+
+**Data:** 14/04/2026 - Terça | **Sala:** E232
+
+#### 🎯 Objetivo
+Finalizar a PROPOSTA_v1.md e iniciar o preenchimento do Workflow Document, registrando as primeiras entradas do processo de desenvolvimento assistido por IA — inclusive os dados iniciais de economicidade.
+
+#### 📝 Conteúdo Detalhado
+Continuação da semana de trabalho autônomo. Equipes finalizam a PROPOSTA_v1.md para submissão antes do prazo assíncrono definido na Aula 8. Início do Workflow Document: registro das ferramentas de IA já utilizadas na elaboração da proposta, primeiras observações sobre onde a IA ajudou ou não ajudou, e preenchimento inicial das Camadas 1 e 2 do Registro de Economicidade referente às atividades de pré-proposta. Foco em manter o repositório atualizado com histórico de commits rastreável.
+
+#### 💻 Atividades
+Finalização e submissão da PROPOSTA_v1.md no GitHub e Google Classroom; início do Workflow Document com registro das ferramentas utilizadas até o momento e primeiras entradas de economicidade (consumo de tokens estimado e horas dedicadas por membro); manutenção do histórico de commits no repositório da equipe. Professor disponível por e-mail e Discord para dúvidas.
+
+#### 📦 Entregáveis
+PROPOSTA_v1.md finalizada e submetida (GitHub + Google Classroom). Workflow Document iniciado (ferramentas + economicidade inicial).
+
+</details>
+
+> 🟥 **Aula 15 — 20/04/2026 (Segunda):** Tiradentes - Feriado Nacional — sem aula.
+
+> 🟥 **Aula 16 — 21/04/2026 (Terça):** Tiradentes - Feriado Nacional — sem aula.
+
+<details>
+<summary><h3>📅 Aula 17 - Manutenção e Detecção de Bugs Assistida por IA</h3></summary>
+
+**Data:** 27/04/2026 - Segunda | **Sala:** Grad01
+
+#### 🎯 Objetivo
+Capacitar uso de IA para detectar e prever bugs proativamente.
+
+#### 📝 Conteúdo Detalhado
+Técnicas de ML/DL para detecção automática de bugs. Identificação de padrões que correlacionam com bugs: complexidade, churn, code smells. Ferramentas: DeepCode, SonarQube AI.
+
+#### 💻 Atividades
+Atividade: Usar ferramenta de detecção de bugs baseada em IA em projeto open-source. Analisar resultados e falsos positivos.
+
+#### 📚 Referências
+Khleel & Nehéz (2023); Thudumu et al. (2020); Meira (2024) Seção 5.1
+
+</details>
+
+<details>
+<summary><h3>📅 Aula 18 - Resolução de Bugs e Otimização com IA</h3></summary>
+
+**Data:** 28/04/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
 Aprender a usar IA para sugerir correções de bugs e priorizar esforços de manutenção.
 
 #### 📝 Conteúdo Detalhado
-IA na sugestão de correções de bugs: análise de commits anteriores, padrões de correção, geração de patches automáticos. Priorização de bugs com IA: severidade, impacto no sistema, probabilidade de ocorrência. Padronização da qualidade de correções através de code review automatizado com IA. Desafios: confiabilidade das correções automáticas, necessidade de validação humana.
+IA na sugestão de correções: análise de commits, padrões, patches automáticos. Priorização de bugs. Code review automatizado. Desafios de confiabilidade.
 
 #### 💻 Atividades
-Debate estruturado: "A IA pode substituir desenvolvedores na correção de bugs?" Discussão sobre a confiabilidade de correções sugeridas por IA e a importância da supervisão humana. Exercício: revisar correções de bugs geradas por IA e avaliar sua qualidade.
+Debate: 'A IA pode substituir desenvolvedores na correção de bugs?' Exercício: revisar correções geradas por IA.
 
-#### 📚 Material Prévio
-Ler: Gazit (2024) e Keller & Nowakowski (2024) sobre automated patching. Revisar: conceitos de debugging e correção de bugs.
-
-#### 📦 Entregáveis
-Análise crítica (2-3 páginas): casos onde IA pode ser confiável para correção automática vs. casos onde supervisão humana é essencial.
-
-#### 📖 Referências
-Gazit (2024); Keller & Nowakowski (2024); Meira (2024) - Seções 5.1, 5.2
+#### 📚 Referências
+Gazit (2024); Keller & Nowakowski (2024); Meira (2024) Seções 5.1-5.2
 
 </details>
 
 <details>
-<summary><h3>✅ Aula 14 - Checkpoint Mini-Projeto 2: Development & Testing com IA</h3></summary>
+<summary><h3>📅 Aula 19 - Gerenciamento de Atualizações e Evolução de Software com IA</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 7
+**Data:** 04/05/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Aplicar os conceitos de assistência à codificação, testes e DevOps em um mini-projeto prático.
+Explorar uso de IA na gestão estratégica de atualizações e evolução contínua.
 
 #### 📝 Conteúdo Detalhado
-Apresentação dos mini-projetos de cada equipe (5-10 min por equipe). Cada equipe demonstra uma aplicação prática de IA em código generation, testing automation ou CI/CD. Demonstração ao vivo de funcionalidades desenvolvidas. Feedback do professor e peer review. Discussão sobre desafios técnicos e trade-offs.
+IA para priorizar atualizações: impacto no negócio, feedback de usuários, security patches. Análise de feedback com NLP. Gestão de breaking changes e débito técnico.
 
 #### 💻 Atividades
-Apresentações relâmpago com demonstração de protótipo funcional. Sessão de Q&A e peer review estruturado. Retrospectiva: o que melhorou desde o Mini-Projeto 1?
+Atividade em grupo: Usar dados de feedback para priorizar atualizações com IA. Análise de impacto de mudanças.
 
-#### 📚 Material Prévio
-Finalizar Mini-Projeto 2: código funcional, testes automatizados, pipeline CI/CD (se aplicável), documentação.
-
-#### 📦 Entregáveis
-Código-fonte em repositório GitHub. Demonstração funcional (vídeo ou ao vivo). Documento de reflexão: desafios, soluções, lições aprendidas.
-
-#### 📖 Referências
-Material das Aulas 8-13; SWEBOK
+#### 📚 Referências
+Xin et al. (2023); Hong et al. (2023); Gezici & Tarhan (2022); Meira (2024) Seção 5.3
 
 </details>
 
----
+## 🎯 FASE 3: Exposição (Aulas 20-23)
 
-## 🔄 FASE 3: Maintenance & Exposição (Aulas 15-21)
+**05/05–18/05 | Movimento 1 da Sinfonia — Alinhar Estratégia**
 
-**Semanas 9-12 | Manutenção + Movimento 1 da Sinfonia (Exposição)**
-
-### 🎼 Movimento 1: EXPOSIÇÃO - Alinhar Estratégia
+### 🎼 Movimento 1: EXPOSIÇÃO — Alinhar Estratégia
 
 <details>
-<summary><h3>📅 Aula 15 - Gerenciamento de Atualizações e Evolução de Software com IA</h3></summary>
+<summary><h3>📅 Aula 20 - 🎼 [EXPOSIÇÃO] Definição de Problema e Criação de Personas</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 8
+**Data:** 05/05/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Explorar o uso de IA na gestão estratégica de atualizações de software e evolução contínua de sistemas.
+Definir domínio/problema e desenvolver empatia com usuários.
 
 #### 📝 Conteúdo Detalhado
-Uso de IA para priorizar atualizações baseado em fatores como impacto no negócio, feedback de usuários, urgência de security patches. Automação do processo de deployment de updates para reduzir risco de erros. Análise de feedback de usuários com NLP para identificar prioridades. Gestão de breaking changes e compatibilidade reversa com assistência de IA. Análise de impacto de mudanças. Gestão de débito técnico com IA.
+Atividades 1-2 do Movimento Exposição: Canvas de Estratégia e Ação + Persona Model Canvas. Técnicas para formular problem statements. Criação de personas com IA.
 
 #### 💻 Atividades
-Atividade em grupo: Usar dados simulados de feedback de usuários (reviews, tickets de suporte) para priorizar um conjunto de atualizações de software usando IA (ex: sentiment analysis, clustering de tópicos). Apresentar a lista priorizada e justificar as decisões. Análise de impacto de uma mudança proposta usando IA.
-
-#### 📚 Material Prévio
-Ler: artigos sobre update management e release planning. Preparar: dataset de feedback de usuários (fornecido). Revisar conceitos de manutenção de software.
+Workshop: trabalho no Canvas de Estratégia. Criar 2-3 personas usando IA. Feedback do professor e peers.
 
 #### 📦 Entregáveis
-Lista priorizada de atualizações + análise de justificativas baseadas em dados e IA. Análise de impacto documentada.
+Canvas de Estratégia e Ação (draft). Persona Model Canvas (2-3 personas).
 
-#### 📖 Referências
-Xin et al. (2023); Hong et al. (2023); Gezici & Tarhan (2022); Meira (2024) - Seção 5.3
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 4.2.1-4.2.2; Salminen et al. (2022)
 
 </details>
 
 <details>
-<summary><h3>🎼 Aula 16 - [SINFONIA - EXPOSIÇÃO] Kick-off do Projeto Final + Introdução à Metodologia Sinfonia</h3></summary>
+<summary><h3>📅 Aula 21 - 🎼 [EXPOSIÇÃO] Alinhamento Estratégico e Ideação de Soluções</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 8
+**Data:** 11/05/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Iniciar o projeto final seguindo a metodologia Sinfonia. Compreender os 4 movimentos e começar o Movimento 1: Exposição.
+Consolidar alinhamento estratégico e gerar ideias de soluções.
 
 #### 📝 Conteúdo Detalhado
-Apresentação detalhada da metodologia Sinfonia: 4 movimentos (Exposição, Composição, Ensaio, Ressonância), princípios (Pragmático, Colaborativo, Adaptável, Defensável), e os 14 artefatos. Explicação do Movimento 1 (Exposição): alinhar estratégia, definir problema, empatizar com usuário. Formação de equipes de 3-4 alunos. Brainstorming inicial de problemas de ES que podem ser resolvidos com IA. Discussão sobre domínios do SWEBOK aplicáveis.
+Atividades 3-4 do Movimento Exposição: Declaração de Missão/Visão + Ideação e Priorização. Objetivos SMART. Métricas de sucesso. Técnicas de ideação. Matriz de Impacto vs. Esforço.
 
 #### 💻 Atividades
-Apresentação da Sinfonia (slides + diagrama mestre). Formação de equipes. Brainstorming facilitado: cada equipe identifica 2-3 problemas potenciais de ES onde IA pode agregar valor. Discussão em grupo sobre viabilidade e impacto. Introdução ao Canvas de Estratégia e Ação do Projeto.
-
-#### 📚 Material Prévio
-Ler: Sinfonia - Capítulos 1, 2 e 4 (Movimento Exposição). Revisar todos os conceitos da disciplina (Aulas 1-15). Pensar em possíveis tópicos de projeto relacionados ao SWEBOK.
+Workshop: redigir Missão/Visão e definir métricas. Sessão de ideação: gerar 5-10 ideias com IA. Matriz de Impacto vs. Esforço.
 
 #### 📦 Entregáveis
-Equipes formadas (3-4 alunos). Lista inicial de 2-3 ideias de projeto por equipe. Reflexão individual sobre qual problema mais interessa.
+Declaração de Missão/Visão. Métricas de sucesso. Matriz de Impacto vs. Esforço.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Caps. 1-4; SWEBOK; Material de todas as aulas anteriores
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 4.2.3-4.2.4; Ries (2011) Lean Startup
 
 </details>
 
 <details>
-<summary><h3>🎼 Aula 17 - [SINFONIA - EXPOSIÇÃO] Definição de Domínio e Problema</h3></summary>
+<summary><h3>📅 Aula 22 - 🎼 [EXPOSIÇÃO] Priorização Final e Definição de MVP</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 9
+**Data:** 12/05/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Definir claramente o domínio e o problema que o projeto abordará, usando o Canvas de Estratégia e Ação do Projeto.
+Finalizar seleção de solução e definir escopo do MVP.
 
 #### 📝 Conteúdo Detalhado
-Atividade 1 do Movimento Exposição: Definição de Domínio e Problema. Como usar o Canvas de Estratégia e Ação do Projeto: definir missão, visão, contexto de negócio, problema a ser resolvido. Técnicas para formular bons problem statements. Critérios para avaliar viabilidade: complexidade técnica, disponibilidade de dados, tempo disponível. Alinhamento com áreas do SWEBOK.
+Refinamento da Matriz de Impacto vs. Esforço. Decisão final sobre solução a implementar. Definição clara do escopo MVP: features mínimas necessárias para validar hipótese principal.
 
 #### 💻 Atividades
-Workshop prático: cada equipe trabalha no Canvas de Estratégia e Ação do Projeto. Sessões de 15 min de trabalho em equipe + 10 min de apresentação rápida para feedback do professor. Iterações até convergir em um problema bem definido. Peer feedback: outras equipes fazem perguntas desafiadoras.
-
-#### 📚 Material Prévio
-Ler: Sinfonia Cap. 4 - Atividade 1. Trazer ideias refinadas de problemas. Pesquisar sobre o domínio escolhido (artigos, cases, ferramentas existentes).
+Trabalho em equipe: finalizar todos os artefatos da Exposição. Definir escopo MVP detalhado. Preparar apresentação do Checkpoint 1.
 
 #### 📦 Entregáveis
-Canvas de Estratégia e Ação do Projeto (draft inicial): problema definido, contexto de negócio, objetivos de alto nível.
+Todos os artefatos da Exposição finalizados. Escopo do MVP definido. Slides do CP1.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 4.2.1; Artigos sobre problem framing
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 4
 
 </details>
 
 <details>
-<summary><h3>🎼 Aula 18 - [SINFONIA - EXPOSIÇÃO] Empatia com o Usuário e Criação de Personas</h3></summary>
+<summary><h3>📅 Aula 23 - ✅ [EXPOSIÇÃO] Checkpoint 1 - Apresentação da Exposição Completa</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 9
+**Data:** 18/05/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Desenvolver empatia profunda com os usuários finais da solução, criando personas detalhadas com assistência de IA.
+Consolidar e apresentar artefatos do Movimento 1 (Exposição).
 
 #### 📝 Conteúdo Detalhado
-Atividade 2 do Movimento Exposição: Empatia com o Usuário. Como criar personas realistas: pesquisa de usuários, entrevistas (simuladas), análise de comportamentos. Uso de IA para gerar e refinar personas: análise de dados demográficos, padrões de comportamento, necessidades e dores. Persona Model Canvas da Sinfonia. Técnicas de entrevista e observação. Jobs to be Done framework.
+Apresentações formais (10 min por equipe): Canvas de Estratégia, Personas, Missão/Visão, Solução Priorizada, Escopo MVP. Avaliação: clareza do problema, empatia com usuário, viabilidade, alinhamento estratégico.
 
 #### 💻 Atividades
-Workshop: cada equipe cria 2-3 personas para sua solução usando ferramentas de IA (GPT-4, Claude). Preencher Persona Model Canvas para cada persona. Entrevistas simuladas: equipes se revezam fazendo role-play como usuários baseados nas personas. Feedback do professor sobre realismo e profundidade das personas.
-
-#### 📚 Material Prévio
-Ler: Sinfonia Cap. 4 - Atividade 2. Ler: Salminen et al. (2022) sobre data-driven personas. Preparar: template de entrevista de usuário.
+Apresentações de 10 min. Q&A de 5 min. Peer review estruturado. Feedback escrito do professor em 48h.
 
 #### 📦 Entregáveis
-Persona Model Canvas completo para 2-3 personas. Documento com insights das entrevistas simuladas. Mapa de empatia.
+Apresentação do Movimento Exposição. Documento consolidado (5-8 páginas).
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 4.2.2; Salminen et al. (2022); Christensen et al. (2016) - Jobs to be Done
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 4; Rubrica de avaliação CP1
+
+</details>
+
+## 🎨 FASE 4: Composição (Aulas 24-27)
+
+**19/05–01/06 | Movimento 2 da Sinfonia — Desenhar a Solução**
+
+### 🎼 Movimento 2: COMPOSIÇÃO — Desenhar a Solução
+
+<details>
+<summary><h3>📅 Aula 24 - 🎼 [COMPOSIÇÃO] Prompt Engineering e Arquitetura com C4 Model</h3></summary>
+
+**Data:** 19/05/2026 - Terça | **Sala:** E232
+
+#### 🎯 Objetivo
+Iniciar Movimento 2: foco em Prompt Engineering e design arquitetural.
+
+#### 📝 Conteúdo Detalhado
+Movimento 2: Composição - Desenhar Solução. Técnicas avançadas de prompting: Zero-shot, Few-shot, Chain-of-Thought. C4 Model: Context, Container, Component. Integração de IA na arquitetura.
+
+#### 💻 Atividades
+Workshop intensivo (Parte 1): Prompt Engineering - exercícios práticos. (Parte 2): Desenhar C4 Model (Levels 1-2) da solução.
+
+#### 📦 Entregáveis
+Exercícios de Prompt Engineering. C4 Model (Levels 1-2, draft).
+
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 5.2.1-5.2.3; White et al. (2023); C4 Model docs
 
 </details>
 
 <details>
-<summary><h3>🎼 Aula 19 - [SINFONIA - EXPOSIÇÃO] Alinhamento Estratégico e Declaração de Missão</h3></summary>
+<summary><h3>📅 Aula 25 - 🎼 [COMPOSIÇÃO] Design de Prompts e Catálogo de Registros</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 10
+**Data:** 25/05/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Consolidar o alinhamento estratégico da equipe através da Declaração de Missão e Visão e definição de métricas de sucesso.
+Desenvolver e documentar prompts da solução.
 
 #### 📝 Conteúdo Detalhado
-Atividade 3 do Movimento Exposição: Declaração de Missão e Visão. Como formular uma missão clara e inspiradora. Diferença entre missão (o quê e para quem) e visão (estado futuro desejado). Definir objetivos SMART (Specific, Measurable, Achievable, Relevant, Time-bound). Métricas de sucesso: como medir se a solução funcionou? KPIs técnicos e de negócio. Alinhamento com princípios éticos e responsáveis.
+Atividade 2 do Movimento Composição: Catálogo de Registros de Prompt. Estrutura de registro: objetivo, contexto, template, parâmetros, exemplos. Versionamento. Testes A/B.
 
 #### 💻 Atividades
-Workshop: cada equipe redige sua Declaração de Missão e Visão. Critérios: clareza, foco no usuário, viabilidade. Definição de 3-5 métricas-chave de sucesso (mix de técnicas e de negócio). Apresentação de 5 min por equipe para validação. Feedback do professor e peers. Discussão: como as métricas se conectam com o impacto desejado?
-
-#### 📚 Material Prévio
-Ler: Sinfonia Cap. 4 - Atividade 3. Estudar exemplos de declarações de missão de produtos de IA bem-sucedidos. Revisar conceitos de OKRs e SMART goals.
+Workshop: desenvolver Catálogo de Prompts (mínimo 5-7 prompts documentados). Testar com dados reais. Peer review de catálogos.
 
 #### 📦 Entregáveis
-Declaração de Missão e Visão finalizadas. Lista de 3-5 métricas-chave de sucesso com justificativas. Documento de alinhamento estratégico.
+Catálogo de Registros de Prompt v1 (mínimo 5-7 prompts).
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 4.2.3; Material sobre OKRs e métricas de produto
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 5.2.3; LangChain documentation
 
 </details>
 
 <details>
-<summary><h3>🎼 Aula 20 - [SINFONIA - EXPOSIÇÃO] Ideação de Soluções e Priorização</h3></summary>
+<summary><h3>📅 Aula 26 - 🎼 [COMPOSIÇÃO] Design de Experimento e Definição de MVP</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 10
+**Data:** 26/05/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Gerar e priorizar ideias de soluções usando IA, aplicando a Matriz de Impacto vs. Esforço.
+Planejar experimento para validar MVP.
 
 #### 📝 Conteúdo Detalhado
-Atividade 4 do Movimento Exposição: Ideação e Priorização. Técnicas de ideação: brainstorming, SCAMPER, pensamento lateral. Uso de IA para gerar ideias criativas de soluções. Avaliação de viabilidade técnica com IA: complexidade de implementação, disponibilidade de ferramentas. Matriz de Impacto vs. Esforço: priorizar soluções com maior impacto e menor esforço. Definição do escopo do MVP (Minimum Viable Product).
+Atividade 3 do Movimento Composição: Canvas de Design de Experimento. Hipótese a validar, métricas de sucesso, condições de teste, critérios de decisão. Considerações éticas.
 
 #### 💻 Atividades
-Sessão de ideação intensiva: cada equipe gera 5-10 ideias de soluções com ajuda de IA. Preencher Matriz de Impacto vs. Esforço para cada ideia. Discussão em equipe: qual solução priorizar? Trade-offs entre impacto e complexidade. Definição do escopo MVP: o que entra na primeira versão? Apresentação de 5 min: solução escolhida e justificativa.
-
-#### 📚 Material Prévio
-Ler: Sinfonia Cap. 4 - Atividade 4. Revisar conceitos de MVP e Lean Startup. Preparar: lista preliminar de possíveis soluções.
+Workshop: preencher Canvas de Experimento. Definir hipótese, métricas, método de coleta de dados, critérios de sucesso.
 
 #### 📦 Entregáveis
-Matriz de Impacto vs. Esforço preenchida. Solução priorizada com justificativa detalhada. Escopo do MVP definido (features e não-features).
+Canvas de Design de Experimento completo. Considerações éticas.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 4.2.4; Ries (2011) - The Lean Startup; Material sobre ideação e priorização
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 5.2.4; Kohavi et al. (2020)
 
 </details>
 
 <details>
-<summary><h3>✅ Aula 21 - [SINFONIA - EXPOSIÇÃO] Checkpoint 1 - Apresentação da Exposição Completa</h3></summary>
+<summary><h3>📅 Aula 27 - ✅ [COMPOSIÇÃO] Checkpoint 2 - Apresentação da Composição Completa</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 11
+**Data:** 01/06/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Consolidar e apresentar todos os artefatos do Movimento 1 (Exposição). Validar alinhamento estratégico antes de prosseguir para o Movimento 2.
+Consolidar e apresentar artefatos do Movimento 2 (Composição).
 
 #### 📝 Conteúdo Detalhado
-Apresentações formais (10 min por equipe) do Movimento Exposição completo: Canvas de Estratégia, Personas, Declaração de Missão/Visão, Solução Priorizada e Escopo MVP. Avaliação pelo professor usando rubrica específica: clareza do problema, profundidade de empatia com usuário, viabilidade técnica, alinhamento estratégico. Feedback construtivo e sugestões de ajustes. Aprovação para prosseguir para o Movimento 2 (Composição).
+Apresentações formais (10 min): C4 Model, Catálogo de Prompts, Canvas de Experimento. Avaliação: qualidade arquitetural, robustez dos prompts, rigor do experimento. Demonstração de prompts funcionando.
 
 #### 💻 Atividades
-Apresentações formais de 10 minutos por equipe. Estrutura: (1) Problema e contexto, (2) Personas e insights de usuários, (3) Missão/Visão e métricas, (4) Solução escolhida e MVP. Q&A de 5 min após cada apresentação. Peer review estruturado. Feedback escrito do professor entregue em 48h.
-
-#### 📚 Material Prévio
-Finalizar todos os artefatos da Exposição. Preparar slides de apresentação (máximo 10 slides). Ensaiar apresentação (timing e clareza).
+Apresentações de 10 min. Demonstração ao vivo de 2-3 prompts. Q&A de 5 min. Feedback técnico detalhado.
 
 #### 📦 Entregáveis
-Apresentação completa do Movimento Exposição. Todos os artefatos: Canvas de Estratégia, Personas, Missão/Visão, Matriz de Priorização, Escopo MVP. Documento consolidado (5-8 páginas).
+Apresentação do Movimento Composição. C4 Model, Catálogo de Prompts, Canvas de Experimento. Demonstração de prompts.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 4; Rubrica de avaliação do Checkpoint 1
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 5; Rubrica de avaliação CP2
 
 </details>
 
----
+## 🔨 FASE 5: Ensaio (Aulas 28-32)
 
-## 🎨 FASE 4: Composição (Aulas 22-26)
+**02/06–16/06 | Movimento 3 da Sinfonia — Construir e Testar**
 
-**Semanas 13-14 | Movimento 2 da Sinfonia (Composição)**
-
-### 🎼 Movimento 2: COMPOSIÇÃO - Desenhar Solução
+### 🎼 Movimento 3: ENSAIO — Construir e Testar
 
 <details>
-<summary><h3>🎼 Aula 22 - [SINFONIA - COMPOSIÇÃO] Introdução + AULA ESPECIAL: Prompt Engineering para Engenharia de Software</h3></summary>
+<summary><h3>📅 Aula 28 - 🎼 [ENSAIO] Sprint 1 - Início da Construção</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 11
+**Data:** 02/06/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Iniciar o Movimento 2 (Composição) com foco intensivo em Prompt Engineering - habilidade crítica para trabalhar com LLMs em ES.
+Iniciar Movimento 3 (Ensaio): construir e testar MVP.
 
 #### 📝 Conteúdo Detalhado
-Movimento 2 da Sinfonia: Composição - Desenhar a Solução. Importância do Prompt Engineering para o sucesso de soluções baseadas em LLMs. Técnicas avançadas de prompting: Zero-shot, Few-shot, Chain-of-Thought (CoT), Role-playing, Self-consistency, Tree of Thoughts. Prompting para tarefas específicas de ES: geração de código, análise de requisitos, geração de testes, refatoração, documentação. Iteração e refinamento de prompts. Avaliação de qualidade de outputs. Introdução ao Catálogo de Registros de Prompt da Sinfonia.
+Movimento 3: Ensaio - Construir e Testar. Metodologia: sprints semanais. Setup técnico: repositório, CI/CD, ambiente. Implementação de componentes principais. Integração de LLMs via APIs.
 
 #### 💻 Atividades
-Workshop intensivo de Prompt Engineering (90 min): Parte 1 (30 min): Apresentação de técnicas e exemplos. Parte 2 (40 min): Exercícios práticos hands-on em duplas - otimizar prompts para 5 tarefas de SE diferentes. Parte 3 (20 min): Competição amigável - qual dupla consegue o melhor resultado para um desafio de prompting? Discussão: padrões emergentes, anti-patterns, melhores práticas. Início do Catálogo de Registros de Prompt para o projeto.
-
-#### 📚 Material Prévio
-Ler: Artigos sobre prompt engineering (lista fornecida). Explorar: Prompt libraries (Awesome Prompts, LangChain Hub). Ler: Sinfonia Cap. 5 - introdução e Catálogo de Prompts. Preparar: LLM configurado para testes.
+Stand-up (5 min). Trabalho em equipe (75 min): estrutura básica, integração com LLM, componentes críticos. Mini code review ao final.
 
 #### 📦 Entregáveis
-Exercícios de prompt engineering completados. Primeiros 3-5 registros de prompt no Catálogo do projeto (templates iniciais). Reflexão (1 página): insights sobre prompt engineering.
+Código v0.1 no GitHub. Componente core funcionando. Setup documentado.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 5.2.3; White et al. (2023) - Prompt Engineering Guide; OpenAI Cookbook; Anthropic Prompt Library
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 6; Fowler (2018) Refactoring; Martin (2008) Clean Code
 
 </details>
 
 <details>
-<summary><h3>🎼 Aula 23 - [SINFONIA - COMPOSIÇÃO] Arquitetura da Solução com C4 Model</h3></summary>
+<summary><h3>📅 Aula 29 - 🎼 [ENSAIO] Sprint 2 - Integração e Testes Iniciais</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 12
+**Data:** 08/06/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Desenhar a arquitetura técnica da solução usando o C4 Model, facilitando comunicação entre stakeholders técnicos e não-técnicos.
+Continuar desenvolvimento e implementar testes automatizados.
 
 #### 📝 Conteúdo Detalhado
-Atividade 1 do Movimento Composição: Arquitetura com C4 Model. Revisão do C4 Model: Context, Container, Component, Code. Level 1 (Context): sistema no contexto, usuários, sistemas externos. Level 2 (Container): aplicações, databases, serviços. Level 3 (Component): componentes dentro de containers. Como a IA se integra na arquitetura: onde os LLMs serão usados? APIs, pipelines, interfaces. Decisões arquiteturais: monolítico vs. microservices, síncrono vs. assíncrono, cloud vs. on-premise.
+Sprint 2: integração de componentes, testes unitários e de integração. Uso de IA para geração de testes. Boas práticas: clean code, SOLID. Início do Canvas de Testes e Validação.
 
 #### 💻 Atividades
-Workshop de arquitetura: cada equipe desenha C4 Model (Levels 1 e 2 obrigatórios, Level 3 opcional) para sua solução. Ferramentas: draw.io, Lucidchart, ou papel. Identificar: onde a IA se encaixa? Quais componentes são críticos? Quais são os pontos de falha? Apresentação de 5 min por equipe. Feedback arquitetural do professor: escalabilidade, segurança, manutenibilidade.
-
-#### 📚 Material Prévio
-Ler: Sinfonia Cap. 5 - Atividade 1 (C4 Model). Revisar: C4 Model documentation completa. Estudar: arquiteturas de referência para sistemas de IA (papers, cases).
+Stand-up (5 min). Trabalho em equipe (60 min). Pair programming (20 min). Code review entre equipes (15 min).
 
 #### 📦 Entregáveis
-C4 Model completo (Levels 1-2, Level 3 opcional). Documento de decisões arquiteturais: justificativa para escolhas-chave, trade-offs considerados, riscos identificados.
+Código v0.2 com componentes integrados. Suite de testes (mínimo 5 unit tests). CI/CD ativo. Canvas de Testes iniciado.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 5.2.1; C4 Model documentation; Belzner (2023); Richards & Ford (2020) - Software Architecture Patterns
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 6.2.2; Beck (2002) TDD
 
 </details>
 
 <details>
-<summary><h3>🎼 Aula 24 - [SINFONIA - COMPOSIÇÃO] Design de Prompts e Catálogo de Registros</h3></summary>
+<summary><h3>📅 Aula 30 - 🎼 [ENSAIO] Sprint 3 - Qualidade e Segurança 🎯</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 12
+**Data:** 09/06/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Desenvolver e documentar os prompts que serão usados na solução, criando um Catálogo de Registros de Prompt robusto.
+Realizar testes de qualidade e avaliar segurança da solução.
 
 #### 📝 Conteúdo Detalhado
-Atividade 2 do Movimento Composição: Catálogo de Registros de Prompt. Estrutura de um registro de prompt: objetivo, contexto, prompt template, parâmetros, exemplos de input/output, métricas de avaliação. Versionamento de prompts: por que é crítico? Como gerenciar. Testes A/B de prompts: comparar variações. Estratégias de prompting para diferentes LLMs (GPT-4, Claude, Gemini). Considerações de custo: tokens, latência, qualidade. Salvaguardas: filtros de conteúdo, validação de outputs.
+Sprint 3: testes de qualidade, Canvas de Testes e Validação. Segurança em sistemas de IA: vulnerabilidades, prompt injection, hallucination. Detecção e mitigação. Boas práticas.
 
 #### 💻 Atividades
-Workshop: cada equipe desenvolve seu Catálogo de Registros de Prompt. Objetivo: documentar todos os prompts que serão usados no MVP (mínimo 5-7 prompts). Para cada prompt: escrever versão inicial, testar com dados reais, iterar para melhorar, documentar no catálogo. Sessão de peer review: equipes trocam catálogos e testam os prompts umas das outras. Discussão: clareza, eficácia, robustez dos prompts.
-
-#### 📚 Material Prévio
-Ler: Sinfonia Cap. 5 - Atividade 2. Revisar: aula 22 sobre Prompt Engineering. Preparar: lista de tarefas que exigirão prompts no projeto. Testar: variações de prompts para tarefas principais.
+Workshop de testes (40 min). Avaliação de segurança (30 min): checklist de vulnerabilidades. Atividade hands-on: tentar quebrar sistema de outra equipe.
 
 #### 📦 Entregáveis
-Catálogo de Registros de Prompt v1.0: mínimo 5-7 prompts documentados com template completo, exemplos, e resultados de testes. Análise comparativa de pelo menos 2 variações de prompts para a tarefa principal.
+Canvas de Testes e Validação. Relatório de segurança (vulnerabilidades + mitigação). Código v0.3.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 5.2.3; Material da Aula 22; LangChain documentation; Anthropic Prompt Engineering Guide
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 6; Wu et al. (2024); Meira (2024) Seção 7.2; OWASP Top 10 for LLMs
 
 </details>
 
 <details>
-<summary><h3>🎼 Aula 25 - [SINFONIA - COMPOSIÇÃO] Design de Experimento e Definição de MVP</h3></summary>
+<summary><h3>📅 Aula 31 - 🎼 [ENSAIO] Sprint 4 - Refinamento e Checklist de Lançamento</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 13
+**Data:** 15/06/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Planejar o experimento para validar o MVP, usando o Canvas de Design de Experimento da Sinfonia.
+Refinar MVP e preparar para lançamento.
 
 #### 📝 Conteúdo Detalhado
-Atividade 3 do Movimento Composição: Canvas de Design de Experimento. Estrutura do canvas: hipótese a validar, métricas de sucesso, condições de teste, riscos, critérios de decisão (pivotar/perseverar/parar). Como formular boas hipóteses testáveis. Definição clara do MVP: features mínimas necessárias para testar a hipótese. Planejamento de testes: quantos usuários? Quanto tempo? Quais dados coletar? Considerações éticas: consentimento, privacidade, transparência sobre uso de IA.
+Sprint 4: correção de bugs críticos, melhorias de segurança, otimização. Checklist de Lançamento da Sinfonia: aspectos técnicos, conformidade, documentação.
 
 #### 💻 Atividades
-Workshop: cada equipe preenche o Canvas de Design de Experimento. Definir: (1) Hipótese principal, (2) Métricas quantitativas e qualitativas, (3) Método de coleta de dados, (4) Critérios de sucesso. Discussão em pequenos grupos sobre viabilidade e ética dos experimentos planejados. Apresentação de 5 min por equipe. Feedback do professor sobre rigor metodológico.
-
-#### 📚 Material Prévio
-Ler: Sinfonia Cap. 5 - Atividade 3. Ler: Kohavi et al. (2020) sobre A/B testing e experimentação online. Revisar: conceitos de hipóteses e métricas (Aula 19).
+Stand-up (5 min). Trabalho em equipe (50 min): refinar MVP. Preencher Checklist. QA entre equipes (25 min). Final check.
 
 #### 📦 Entregáveis
-Canvas de Design de Experimento completo. Plano de teste detalhado: cronograma, recursos necessários, riscos mitigados. Documento de considerações éticas (1-2 páginas).
+Código v0.9. Checklist de Lançamento validado. Documentação técnica. Workflow Document atualizado.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 5.2.4; Kohavi et al. (2020) - Trustworthy Online Controlled Experiments; Material sobre experimentação
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 6.2.3
 
 </details>
 
 <details>
-<summary><h3>✅ Aula 26 - [SINFONIA - COMPOSIÇÃO] Checkpoint 2 - Apresentação da Composição Completa</h3></summary>
+<summary><h3>📅 Aula 32 - ✅ [ENSAIO] Checkpoint 3 - Demonstração do MVP Funcional</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 13
+**Data:** 16/06/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Consolidar e apresentar todos os artefatos do Movimento 2 (Composição). Validar design técnico antes de iniciar construção.
+Apresentar MVP funcional completo.
 
 #### 📝 Conteúdo Detalhado
-Apresentações formais (10 min por equipe) do Movimento Composição completo: C4 Model, Catálogo de Registros de Prompt, Canvas de Design de Experimento. Avaliação pelo professor: qualidade arquitetural, robustez dos prompts, rigor do design de experimento. Validação técnica: a solução é implementável no tempo disponível? Os prompts funcionam como esperado? O experimento é ético e viável? Aprovação para prosseguir para o Movimento 3 (Ensaio).
+Apresentações formais (12 min): demonstração ao vivo, resultados de testes, análise de segurança. Avaliação: funcionalidade, qualidade técnica, robustez, documentação.
 
 #### 💻 Atividades
-Apresentações formais de 10 minutos por equipe. Estrutura: (1) Visão geral da arquitetura, (2) Demonstração de prompts-chave, (3) Plano de experimento e MVP. Q&A de 5 min. Sessão especial: demonstração ao vivo de 2-3 prompts funcionando (pode ser prototype simples). Feedback técnico detalhado do professor. Peer review.
-
-#### 📚 Material Prévio
-Finalizar todos os artefatos da Composição. Preparar slides de apresentação. Testar prompts-chave e preparar demonstração. Validar arquitetura internamente.
+Apresentações de 12 min: (1) Demo ao vivo (6 min), (2) Testes/validação (3 min), (3) Segurança (3 min). Q&A de 5 min.
 
 #### 📦 Entregáveis
-Apresentação completa do Movimento Composição. Todos os artefatos: C4 Model, Catálogo de Prompts v1, Canvas de Experimento. Demonstração funcional de prompts. Documento consolidado (5-8 páginas).
+Apresentação do MVP funcional. Canvas de Testes, Checklist de Lançamento, Relatório de segurança.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 5; Rubrica de avaliação do Checkpoint 2
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia Cap. 6; Rubrica de avaliação CP3
 
 </details>
 
----
+## 📊 FASE 6: Ressonância (Aulas 35-36)
 
-## 🔨 FASE 5: Ensaio (Aulas 27-32)
+**29/06–30/06 | Movimento 4 da Sinfonia — Medir, Aprender e Apresentar**
 
-**Semanas 15-17 | Movimento 3 da Sinfonia (Ensaio)**
+### 🎼 Movimento 4: RESSONÂNCIA — Medir e Aprender
 
-### 🎼 Movimento 3: ENSAIO - Construir e Testar
+> 🟥 **Aula 33 — 22/06/2026 (Segunda):** Período de São João com Feriado Estadual — sem aula.
+
+> 🟥 **Aula 34 — 23/06/2026 (Terça):** Período de São João com Feriado Estadual — sem aula.
 
 <details>
-<summary><h3>🎼 Aula 27 - [SINFONIA - ENSAIO] Início da Construção - Sprint 1</h3></summary>
+<summary><h3>📅 Aula 35 - ✅ [RESSONÂNCIA] Apresentações Finais - Parte 1</h3></summary>
 
-**Data:** DD/MM/2026 - Segunda | **Semana:** 14
+**Data:** 29/06/2026 - Segunda | **Sala:** Grad01
 
 #### 🎯 Objetivo
-Iniciar o Movimento 3 (Ensaio): construir e testar o MVP. Sprint 1 focado em implementação dos componentes core.
+Apresentação formal dos projetos completos (metade das equipes).
 
 #### 📝 Conteúdo Detalhado
-Movimento 3 da Sinfonia: Ensaio - Construir e Testar. Objetivo da fase: transformar o design em código funcional. Metodologia de trabalho: sprints semanais com stand-ups, pair programming, code reviews. Setup técnico: repositório GitHub, CI/CD básico, ambiente de desenvolvimento. Implementação dos componentes principais identificados na arquitetura. Integração de LLMs via APIs. Foco em funcionalidade core, não em polish.
+Apresentações finais (18 min + 7 min Q&A por equipe): (1) Exposição (3 min), (2) Composição (4 min), (3) Ensaio (6 min), (4) Ressonância (5 min). Avaliação final.
 
 #### 💻 Atividades
-Stand-up rápido (5 min por equipe): objetivos da sprint, divisão de tarefas. Trabalho em equipe (75 min) com suporte do professor. Implementar: estrutura básica da aplicação, integração com API do LLM principal, componentes críticos identificados na arquitetura. Mini code review ao final da aula: cada equipe mostra o código desenvolvido até agora e recebe feedback rápido. Discussão de blockers e próximos passos.
-
-#### 📚 Material Prévio
-Ler: Sinfonia Cap. 6 - introdução ao Ensaio. Preparar: ambiente de desenvolvimento, API keys configuradas, repositório GitHub criado, CI/CD básico. Revisar: arquitetura (C4 Model) e prompts (Catálogo).
+Apresentações de 4-5 equipes (25 min cada). Demonstração ao vivo obrigatória. Painel de avaliação. Peer evaluation.
 
 #### 📦 Entregáveis
-Código v0.1 em repositório GitHub. README atualizado. Pelo menos um componente core funcionando. Documentação de setup para outros membros da equipe.
+Apresentação final completa. Demonstração ao vivo. **Relatório Final** (PDF, [template oficial](./projeto-final/templates/Template_Relatorio_Final_Projeto.md)) com seção de economicidade. **Workflow Document completo** (anexo). Sistema funcional e repositório completo.
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 6; Fowler (2018) - Refactoring; Martin (2008) - Clean Code
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia completo; Rubrica de avaliação final
 
 </details>
 
 <details>
-<summary><h3>🎼 Aula 28 - [SINFONIA - ENSAIO] Sprint 2: Integração e Testes Iniciais</h3></summary>
+<summary><h3>📅 Aula 36 - ✅ [RESSONÂNCIA] Apresentações Finais - Parte 2 + Retrospectiva e Encerramento</h3></summary>
 
-**Data:** DD/MM/2026 - Terça | **Semana:** 14
-
-#### 🎯 Objetivo
-Continuar desenvolvimento, integrar componentes e implementar testes automatizados iniciais.
-
-#### 📝 Conteúdo Detalhado
-Continuação da construção. Sprint 2: integração de componentes, implementação de testes unitários e de integração. Uso de ferramentas de IA para geração de testes (aplicando conceitos da Aula 9). Garantir que o código segue boas práticas: clean code, SOLID principles. Documentação inline (docstrings, comentários). Início do Canvas de Testes e Validação da Sinfonia.
-
-#### 💻 Atividades
-Stand-up (5 min por equipe). Trabalho em equipe (60 min): integrar componentes desenvolvidos na Sprint 1, resolver bugs, implementar testes automatizados. Sessão de pair programming (20 min): equipes se dividem em pares e praticam pair programming para resolver um desafio técnico. Code review entre equipes (15 min): equipe A revisa código da equipe B. Discussão de findings.
-
-#### 📚 Material Prévio
-Continuar desenvolvimento. Preparar: código da Sprint 1 em estado estável. Revisar: conceitos de testes (Aula 9). Ler: Sinfonia - Canvas de Testes e Validação.
-
-#### 📦 Entregáveis
-Código v0.2 com componentes integrados. Suite de testes automatizados (mínimo 5 unit tests). CI/CD rodando testes automaticamente. Relatório de code review recebido.
-
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 6.2.2; Beck (2002) - Test-Driven Development; Material da Aula 9
-
-</details>
-
-<details>
-<summary><h3>🎼 Aula 29 - [SINFONIA - ENSAIO] Sprint 3: Testes de Qualidade e Canvas de Validação</h3></summary>
-
-**Data:** DD/MM/2026 - Segunda | **Semana:** 15
+**Data:** 30/06/2026 - Terça | **Sala:** E232
 
 #### 🎯 Objetivo
-Realizar testes abrangentes de qualidade, preencher Canvas de Testes e Validação, avaliar outputs da IA.
+Apresentação formal dos projetos das equipes restantes. Retrospectiva geral da disciplina e encerramento.
 
 #### 📝 Conteúdo Detalhado
-Atividade 2 do Movimento Ensaio: Canvas de Testes e Validação. Testes de qualidade para sistemas com IA: testes de funcionalidade, testes de qualidade de outputs do LLM, testes de edge cases, testes de performance e latência. Avaliação de hallucination: como detectar e mitigar. Métricas de qualidade: precisão, recall, F1-score (se aplicável), satisfação do usuário. Documentar resultados no Canvas de Testes e Validação.
+Continuação das apresentações finais (equipes restantes), mesma estrutura da Aula 35. Após as apresentações: Retrospectiva Geral da Disciplina — aprendizados do semestre, reflexão sobre a jornada pela Sinfonia, e o futuro do uso de IA nas carreiras. Survey de avaliação da disciplina. Encerramento.
 
 #### 💻 Atividades
-Stand-up (5 min). Workshop de testes (40 min): cada equipe executa bateria de testes no MVP. Testes funcionais, testes de qualidade de IA, testes de edge cases. Documentar resultados no Canvas de Testes e Validação. Identificar: quais outputs da IA são confiáveis? Onde ocorrem erros? Discussão em grupo (20 min): estratégias para mitigar hallucinations e melhorar qualidade. Trabalho em equipe (35 min): implementar melhorias baseadas nos testes.
-
-#### 📚 Material Prévio
-Preparar: MVP em estado testável. Ler: Sinfonia Cap. 6 - Canvas de Testes. Ler: Wang et al. (2024) sobre testing de LLMs. Preparar: casos de teste abrangentes.
+Apresentações das equipes restantes (25 min cada). Retrospectiva facilitada (40 min). Survey de avaliação da disciplina. Encerramento e networking.
 
 #### 📦 Entregáveis
-Canvas de Testes e Validação completo. Relatório de testes: resultados quantitativos e qualitativos, bugs encontrados, análise de qualidade de outputs da IA. Código v0.3 com correções.
+Apresentação final (equipes restantes). **Relatório Final** + **Workflow Document completo**. Survey de avaliação. Reflexão final individual (opcional).
 
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 6.2.2; Wang et al. (2024); Material da Aula 9
-
-</details>
-
-<details>
-<summary><h3>🎼 Aula 30 - [SINFONIA - ENSAIO] AULA ESPECIAL: Segurança, Vulnerabilidades e Confiabilidade de IA</h3></summary>
-
-**Data:** DD/MM/2026 - Terça | **Semana:** 15
-
-#### 🎯 Objetivo
-Abordar tópicos críticos de segurança de código gerado por IA, vulnerabilidades, hallucinations, e confiabilidade de sistemas de IA.
-
-#### 📝 Conteúdo Detalhado
-Segurança em sistemas de IA: vulnerabilidades comuns introduzidas por código gerado por LLMs, prompt injection attacks, data leakage, adversarial attacks. Hallucination em LLMs: o que é, por que acontece, como detectar, estratégias de mitigação (validação, fact-checking, confidence scoring). Confiabilidade de outputs: quando confiar na IA? Como validar resultados críticos? Testes de robustez. Boas práticas: sandboxing, input validation, rate limiting, monitoring. Avaliação de segurança do projeto.
-
-#### 💻 Atividades
-Palestra (30 min): segurança e confiabilidade de IA na ES, casos reais de vulnerabilidades, melhores práticas. Workshop de segurança (40 min): cada equipe realiza avaliação de segurança do seu MVP. Checklist: code injection risks, prompt injection, data privacy, error handling, hallucination mitigation. Identificar e documentar vulnerabilidades. Atividade hands-on (30 min): tentar "quebrar" o sistema de outra equipe (controlled red team exercise). Discussão: vulnerabilidades descobertas, como corrigir.
-
-#### 📚 Material Prévio
-Ler: Wu et al. (2024) sobre segurança de LLMs. Ler: material sobre prompt injection e adversarial attacks. Ler: Meira (2024) Seção 7.2 sobre hallucination. Preparar: MVP para análise de segurança.
-
-#### 📦 Entregáveis
-Relatório de segurança (3-4 páginas): vulnerabilidades identificadas, severidade, plano de mitigação. Análise de confiabilidade: onde o sistema pode falhar? Estratégias implementadas para mitigar hallucination.
-
-#### 📖 Referências
-Wu et al. (2024); Meira (2024) - Seção 7.2; Divakaran & Peddinti (2024); OWASP Top 10 for LLMs; Material sobre segurança de IA
-
-</details>
-
-<details>
-<summary><h3>🎼 Aula 31 - [SINFONIA - ENSAIO] Sprint 4: Refinamento e Checklist de Lançamento</h3></summary>
-
-**Data:** DD/MM/2026 - Segunda | **Semana:** 16
-
-#### 🎯 Objetivo
-Refinar o MVP, corrigir vulnerabilidades identificadas, e preparar para lançamento usando o Checklist de Lançamento.
-
-#### 📝 Conteúdo Detalhado
-Atividade 3 do Movimento Ensaio: Checklist de Lançamento. Preparação para lançamento: correção de bugs críticos, implementação de melhorias de segurança (da Aula 30), otimização de performance, refinamento de UX. Checklist de Lançamento da Sinfonia: aspectos técnicos, conformidade, privacidade, documentação, comunicação. Preparação de documentação: README completo, guia de instalação, API docs (se aplicável), user guide.
-
-#### 💻 Atividades
-Stand-up (5 min). Trabalho em equipe (50 min): refinar MVP, corrigir bugs e vulnerabilidades, implementar melhorias críticas. Preencher Checklist de Lançamento: cada equipe revisa sistematicamente todos os itens. Sessão de QA (25 min): cada equipe faz QA do sistema de outra equipe, reportando bugs. Working session (20 min): corrigir bugs críticos encontrados no QA. Final check: MVP está pronto para demonstração?
-
-#### 📚 Material Prévio
-Preparar: lista de bugs e melhorias prioritárias. Ler: Sinfonia Cap. 6 - Checklist de Lançamento. Revisar: relatório de segurança (Aula 30). Começar: documentação técnica.
-
-#### 📦 Entregáveis
-Código v0.9 (quase final) com bugs críticos corrigidos. Checklist de Lançamento completo e validado. Documentação técnica completa: README, installation guide, user guide. MVP pronto para demonstração.
-
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 6.2.3; Material sobre deployment e release management
-
-</details>
-
-<details>
-<summary><h3>✅ Aula 32 - [SINFONIA - ENSAIO] Checkpoint 3 - Demonstração do MVP Funcional</h3></summary>
-
-**Data:** DD/MM/2026 - Terça | **Semana:** 16
-
-#### 🎯 Objetivo
-Apresentar o MVP funcional completo. Demonstração ao vivo, análise de qualidade e preparação para o lançamento.
-
-#### 📝 Conteúdo Detalhado
-Apresentações formais (12 min por equipe) do Movimento Ensaio completo: demonstração ao vivo do MVP, apresentação de resultados de testes e qualidade, discussão de decisões técnicas e trade-offs. Avaliação pelo professor: funcionalidade, qualidade técnica, robustez, segurança, documentação. Cada equipe deve demonstrar: (1) fluxo principal de uso, (2) integração com IA funcionando, (3) qualidade de outputs, (4) tratamento de erros. Feedback e aprovação para prosseguir para o Movimento 4 (Ressonância).
-
-#### 💻 Atividades
-Apresentações formais de 12 minutos por equipe. Estrutura: (1) Demonstração ao vivo do MVP (6 min), (2) Resultados de testes e validação (3 min), (3) Análise de segurança e confiabilidade (3 min). Q&A de 5 min com foco técnico. Peer evaluation: cada equipe testa o MVP de outra. Feedback detalhado do professor entregue em 48h.
-
-#### 📚 Material Prévio
-Finalizar MVP. Preparar demonstração (testar múltiplas vezes). Preparar slides de apoio (máximo 8 slides). Garantir: sistema estável, demonstração sem bugs.
-
-#### 📦 Entregáveis
-Apresentação completa do Movimento Ensaio. MVP funcional e demonstrável. Canvas de Testes e Validação. Checklist de Lançamento. Documentação técnica completa. Vídeo demo de 3-5 min (opcional mas recomendado).
-
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 6; Rubrica de avaliação do Checkpoint 3
-
-</details>
-
----
-
-## 📊 FASE 6: Ressonância (Aulas 33-36)
-
-**Semanas 18-19 | Movimento 4 da Sinfonia (Ressonância)**
-
-### 🎼 Movimento 4: RESSONÂNCIA - Medir e Aprender
-
-<details>
-<summary><h3>🎼 Aula 33 - [SINFONIA - RESSONÂNCIA] Lançamento Simulado e Coleta de Feedback</h3></summary>
-
-**Data:** DD/MM/2026 - Segunda | **Semana:** 17
-
-#### 🎯 Objetivo
-Iniciar o Movimento 4 (Ressonância): lançar o MVP para um grupo de usuários simulados e coletar feedback.
-
-#### 📝 Conteúdo Detalhado
-Movimento 4 da Sinfonia: Ressonância - Medir e Aprender. Objetivo da fase: validar hipóteses, aprender com usuários, tomar decisões estratégicas. Atividade 1: Lançamento e Coleta de Feedback. Estratégias de lançamento: soft launch, beta testing, pilot program. Métodos de coleta de feedback: entrevistas, surveys, observação de uso, análise de logs. Métricas quantitativas vs. qualitativas. Simulação de usuários: professor, colegas de outras equipes, convidados externos (se possível).
-
-#### 💻 Atividades
-Lançamento simulado: cada equipe "lança" seu MVP para usuários simulados (outras equipes atuam como usuários, seguindo as personas definidas na Exposição). Cada equipe atua como usuário de outro projeto por 20 min. Coleta de feedback estruturada: formulário de feedback, observação de uso, entrevistas curtas. Compilação inicial de feedback: cada equipe organiza o feedback recebido. Discussão: surpresas? Validações? Invalidações de hipóteses?
-
-#### 📚 Material Prévio
-Preparar: MVP em estado de lançamento. Criar: formulário de feedback para usuários. Ler: Sinfonia Cap. 7 - introdução à Ressonância. Preparar: roteiro de observação de uso.
-
-#### 📦 Entregáveis
-Feedback coletado de pelo menos 5 usuários simulados. Formulários de feedback preenchidos. Notas de observação de uso. Gravações (se aplicável). Compilação inicial de insights.
-
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 7; Material sobre user research e feedback collection
-
-</details>
-
-<details>
-<summary><h3>🎤 Aula 34 - [SINFONIA - RESSONÂNCIA] Análise de Feedback, Insights e Palestra Convidada</h3></summary>
-
-**Data:** DD/MM/2026 - Terça | **Semana:** 17
-
-#### 🎯 Objetivo
-Analisar sistematicamente o feedback coletado, gerar insights e tomar decisões baseadas em evidências. Palestra sobre avaliação de sistemas de IA.
-
-#### 📝 Conteúdo Detalhado
-Atividade 2 do Movimento Ressonância: Painel de Feedback e Insights. Como analisar feedback: categorização, identificação de padrões, priorização de issues. Métricas quantitativas: calcular métricas definidas no Canvas de Experimento (Aula 25). Análise qualitativa: temas recorrentes, citações relevantes, observações surpreendentes. Painel de Feedback e Insights da Sinfonia. Decisão estratégica: otimizar, pivotar, perseverar ou parar? PALESTRA CONVIDADA (30 min): Pesquisador apresenta métodos de avaliação de sistemas de IA, estado da arte em métricas e benchmarks.
-
-#### 💻 Atividades
-Palestra (30 min): pesquisador sobre avaliação de sistemas de IA. Q&A (10 min). Workshop de análise (50 min): cada equipe preenche o Painel de Feedback e Insights. Analisar feedback, calcular métricas, identificar insights-chave. Responder: as hipóteses foram validadas? O MVP atende às necessidades dos usuários? Quais melhorias são prioritárias? Sessão de decisão estratégica (10 min): cada equipe decide próximos passos (para apresentação final).
-
-#### 📚 Material Prévio
-Organizar todo o feedback coletado. Ler: Sinfonia Cap. 7 - Painel de Feedback. Calcular: métricas definidas no Canvas de Experimento. Preparar: análise preliminar de feedback.
-
-#### 📦 Entregáveis
-Painel de Feedback e Insights completo. Análise detalhada de feedback: quantitativa e qualitativa. Cálculo de todas as métricas. Lista priorizada de melhorias. Decisão estratégica documentada com justificativa. Relatório da palestra (1 página).
-
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia Cap. 7.2.2; Material fornecido pelo palestrante; Kohavi et al. (2020)
-
-</details>
-
-<details>
-<summary><h3>🎼 Aula 35 - [SINFONIA - RESSONÂNCIA] Apresentações Finais - Parte 1</h3></summary>
-
-**Data:** DD/MM/2026 - Segunda | **Semana:** 18
-
-#### 🎯 Objetivo
-Apresentação formal dos projetos finais completos (metade das equipes). Demonstração da jornada completa pelos 4 movimentos da Sinfonia.
-
-#### 📝 Conteúdo Detalhado
-Apresentações finais formais (18 min por equipe + 7 min Q&A = 25 min total por equipe). Estrutura da apresentação: (1) Exposição: problema, personas, missão (3 min), (2) Composição: arquitetura, prompts, design de experimento (4 min), (3) Ensaio: demonstração do MVP, testes, segurança (6 min), (4) Ressonância: feedback, insights, métricas, decisão estratégica (5 min). Avaliação final pelo professor usando rubrica completa. Peer evaluation.
-
-#### 💻 Atividades
-Apresentações formais de 4-5 equipes (metade da turma). Cada apresentação: 18 min de apresentação + 7 min de Q&A. Demonstração ao vivo obrigatória. Estrutura rígida seguindo os 4 movimentos da Sinfonia. Painel de avaliação: professor + convidado(s) se possível. Peer evaluation: cada aluno avalia todas as apresentações.
-
-#### 📚 Material Prévio
-Finalizar TUDO. Preparar apresentação final (máximo 20 slides seguindo estrutura dos 4 movimentos). Ensaiar múltiplas vezes (timing é crítico). Garantir: demo funciona perfeitamente, backup plan se houver problemas técnicos.
-
-#### 📦 Entregáveis
-Apresentação final completa. Demonstração ao vivo. Todos os artefatos dos 4 movimentos consolidados. Documento final do projeto (15-20 páginas): jornada completa pela Sinfonia, aprendizados, resultados, reflexões.
-
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia completo; Rubrica de avaliação final
-
-</details>
-
-<details>
-<summary><h3>🎼 Aula 36 - [SINFONIA - RESSONÂNCIA] Apresentações Finais - Parte 2 + Retrospectiva e Encerramento</h3></summary>
-
-**Data:** DD/MM/2026 - Terça | **Semana:** 18
-
-#### 🎯 Objetivo
-Apresentação formal dos projetos finais das equipes restantes. Retrospectiva geral da disciplina e encerramento.
-
-#### 📝 Conteúdo Detalhado
-Continuação das apresentações finais (4-5 equipes restantes). Mesma estrutura e critérios da Aula 35. Após apresentações: Retrospectiva Geral da Disciplina (40 min): O que aprendemos ao longo do semestre? Como a IA está transformando a ES? Reflexão sobre a jornada pela Sinfonia: qual movimento foi mais desafiador? Qual mais valioso? Discussão sobre o futuro: como vocês usarão IA em suas carreiras? Avaliação da disciplina: survey de feedback. Encerramento: agradecimentos, próximos passos, networking.
-
-#### 💻 Atividades
-Apresentações formais de 4-5 equipes restantes (mesma estrutura da Aula 35). Retrospectiva facilitada (40 min): Parte 1 (15 min): Retrospectiva individual - cada aluno escreve 3 aprendizados-chave e 1 desafio superado. Parte 2 (15 min): Retrospectiva em pequenos grupos - compartilhar e discutir. Parte 3 (10 min): Retrospectiva geral - temas emergentes. Survey de avaliação da disciplina (10 min): feedback estruturado para melhoria contínua. Encerramento e celebração (10 min): palavras finais do professor, fotos da turma, networking.
-
-#### 📚 Material Prévio
-Finalizar TUDO (equipes restantes). Refletir: sobre toda a jornada da disciplina desde a Aula 1. Preparar: feedback construtivo para a disciplina.
-
-#### 📦 Entregáveis
-Apresentação final completa (equipes restantes). Documento final do projeto. Survey de avaliação preenchido. Reflexão final individual (opcional, 1-2 páginas): jornada pessoal, principais aprendizados, próximos passos na carreira.
-
-#### 📖 Referências
-Garcia & Medeiros (2025) - Sinfonia completo; Rubrica de avaliação final; Retrospectiva template
+#### 📚 Referências
+Garcia & Medeiros (2025) Sinfonia completo; Rubrica de avaliação final
 
 </details>
 
@@ -1050,121 +790,43 @@ Garcia & Medeiros (2025) - Sinfonia completo; Rubrica de avaliação final; Retr
 
 ## 📊 Resumo dos Checkpoints
 
-| Checkpoint | Aula | Fase | Movimento | Formato | Peso | Foco |
+| Checkpoint | Aula | Data | Movimento | Formato | Peso | Foco |
 |------------|------|------|-----------|---------|------|------|
-| **Mini-Projeto 1** | 7 | Fase 1 | - | Lightning talk 7-10 min | 5% | Requirements & Design |
-| **Checkpoint 1** | 21 | Fase 3 | Exposição | Apresentação 10 min | 10% | Problema + Estratégia |
-| **Checkpoint 2** | 26 | Fase 4 | Composição | Apresentação + demo 10 min | 15% | Arquitetura + Prompts |
-| **Checkpoint 3** | 32 | Fase 5 | Ensaio | Demo ao vivo 12 min | 10% | MVP funcional |
-| **Checkpoint 4** | 35-36 | Fase 6 | Ressonância | Apresentação final 18 min | 37% | Projeto completo |
+| **Checkpoint 1** | 23 | 18/05 | Exposição | Apresentação 10 min | 10% | Problema + Estratégia |
+| **Checkpoint 2** | 27 | 01/06 | Composição | Apresentação + demo 10 min | 15% | Arquitetura + Prompts |
+| **Checkpoint 3** | 32 | 16/06 | Ensaio | Demo ao vivo 12 min | 10% | MVP funcional |
+| **Entrega + Apresentação Final** | 35-36 | 29-30/06 | Ressonância | Apresentação 18 min + entrega | 37% | Projeto completo (sistema + relatório + Workflow Doc) |
 
-**Total Projeto Final:** 75% (soma dos checkpoints + 3% contribuição individual)
+> O peso de 37% do componente final corresponde à **Entrega Final (30%)** + **Apresentação Final (7%)**, ambas nas Aulas 35-36. A entrega inclui o sistema funcional, o **Relatório Final** (com seção de economicidade) e o **Workflow Document** completo como anexo. Ver o [Guia do Projeto Final](./projeto-final/README.md).
 
----
-
-## 🎤 Palestras Convidadas
-
-### Palestra 1: Profissional da Indústria
-**Aula 11 | DD/MM/2026 (Segunda)**
-
-- **Tema:** IA em Produção - Experiência Prática
-- **Duração:** 60-70 min + 20-30 min Q&A
-- **Preparação:** Pesquisar empresa, preparar 2 perguntas
-- **Entregável:** Relatório individual (2 páginas)
-
-### Palestra 2: Pesquisador Acadêmico
-**Aula 34 | DD/MM/2026 (Terça)**
-
-- **Tema:** Avaliação de Sistemas de IA - Estado da Arte
-- **Duração:** 30 min + 10 min Q&A
-- **Contexto:** Durante análise de feedback do projeto
-- **Entregável:** Relatório (1 página) integrado ao Painel
+**Total Projeto Final:** 75% (checkpoints + entrega/apresentação + 3% contribuição individual).
 
 ---
 
-## 📝 Políticas e Diretrizes
+## 🎤 Palestra Convidada
 
-### Presença
-- **Mínimo:** 75% (23 de 30 aulas)
-- **Tolerância atraso:** 15 minutos
-- **Justificativas:** Via e-mail com documentação em 48h
+**Aula 9 | 30/03/2026 (Segunda) | Grad01**
 
-### Entregas
-- **Submissão:** GitHub (código) + Google Classroom (docs)
-- **Deadline:** 23:59 da data especificada
-- **Penalidade atraso:** -10% por dia (máx 3 dias)
-- **Extensões:** Solicitação com 48h de antecedência
-
-### Comunicação
-- **Anúncios:** Discord/Slack + GitHub Issues
-- **Dúvidas gerais:** Discord #duvidas
-- **Dúvidas específicas:** Office hours
-- **Emergências:** E-mail do professor
+- **Tema:** Pair Programming na Era da IA — Dinâmicas de Colaboração com Assistentes de Código
+- **Palestrante:** Prof. Cleidson de Souza (UFPA)
+- **Conexão com o projeto:** confiança, responsabilidade epistêmica e débito técnico — temas que se ligam ao Workflow Document e ao Catálogo de Registros de Prompt.
 
 ---
 
-## 💡 Dicas de Sucesso
+## 📝 Observações
 
-### Para se Dar Bem na Disciplina
-
-✅ **Prepare-se antes das aulas**
-- Leia material prévio
-- Teste ferramentas antecipadamente
-- Traga dúvidas específicas
-
-✅ **Participe ativamente**
-- Contribua em discussões
-- Faça perguntas
-- Compartilhe experiências
-
-✅ **Comece cedo os projetos**
-- Não deixe para última hora
-- Use checkpoints para validar progresso
-- Peça feedback frequente
-
-✅ **Colabore com sua equipe**
-- Defina responsabilidades claras
-- Comunique-se regularmente
-- Use ferramentas de gestão
-
-✅ **Documente tudo**
-- Use de IA de forma transparente
-- Mantenha README atualizado
-- Commits descritivos
-
-✅ **Abuse dos office hours**
-- Leve dúvidas específicas
-- Discuta ideias de projeto
-- Peça feedback sobre trabalhos
-
----
-
-## 📞 Suporte
-
-| Tipo de Dúvida | Canal | Tempo de Resposta |
-|----------------|-------|-------------------|
-| **Técnica** | Discord #ajuda-tecnica | 2-24h |
-| **Conceitual** | Discord #duvidas | 2-24h |
-| **Administrativa** | E-mail professor | 24-48h |
-| **Urgente** | Discord privado | Melhor esforço |
-| **Feedback** | Office hours | Imediato |
+- **Aulas 15-16 (20-21/04):** feriado de Tiradentes — sem aula.
+- **Aulas 33-34 (22-23/06):** período de São João com feriado estadual — sem aula.
+- **Aula 12 (APS):** atividade assíncrona em substituição à aula cancelada por chuvas em Recife; computa na componente de presença e participação.
+- **Aulas 13-14 (Sprint Week):** trabalho autônomo durante o ICSE; professor disponível por e-mail e Discord.
+- O cronograma pode sofrer ajustes; alterações serão comunicadas com antecedência.
 
 ---
 
 <div align="center">
 
-## 🎓 Próximos Passos
+[⬅️ Voltar ao README](./README.md) · [🎼 Guia do Projeto Final](./projeto-final/README.md)
 
-1. ⭐ **Star** este repositório
-2. 📅 **Salve** as datas no calendário
-3. 🔧 **Faça** a Aula 0 (Nivelamento)
-4. 📚 **Leia** o Código de Conduta
-5. 💬 **Entre** no Discord/Slack
-
----
-
-[⬅️ Voltar ao README](./README.md)
-
-**Última atualização:** Dezembro 2025 | **Versão:** 3.0
+**Última atualização:** Junho 2026 | **Versão:** 4.0 (alinhada ao calendário oficial 2026.1)
 
 </div>
