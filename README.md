@@ -82,7 +82,8 @@ Por meio de **mini-projetos práticos incrementais** e um **projeto final em equ
 
 ### 🔗 Links Importantes
 
-- **Planejamento 2026.1:** [📅 Cronograma Detalhado de Aulas](./PLANEJAMENTO_2026_1.md)
+- **Planejamento 2026.1:** [📅 Cronograma Detalhado de Aulas](./semestres
+/2026-1/PLANEJAMENTO_2026_1.md)
 - **Plano de Ensino:** [📄 Plano Completo](./docs/Plano_de_Ensino.md)
 - **Guia do Projeto Final**: [🎼 Guia Completo (Sinfonia)](./projeto-final/Template_Relatorio_Final_Projeto.md)
 - **Código de Conduta:** [⚖️ Uso Ético de IA](./docs/Codigo_de_Conduta.md)
@@ -310,7 +311,8 @@ Aulas 33-36 (2 sem) → Projeto: Movimento Ressonância (Validação)
   - **Aula 34:** Pesquisador acadêmico (avaliação de sistemas de IA)
 - 📊 **4 Checkpoints** de avaliação
 
-> 📅 **Cronograma completo:** Veja o [Planejamento Detalhado do Semestre corrente](./PLANEJAMENTO_2026_1.md)
+> 📅 **Cronograma completo:** Veja o [Planejamento Detalhado do Semestre corrente](./semestres
+/2026-1/PLANEJAMENTO_2026_1.md)
 > 
 > 🎼 **Guia do Projeto Final:** Objetivos, entregáveis por checkpoint, os 14 artefatos e o relatório final estão no [Guia do Projeto Final](./projeto-final/README.md)
 
@@ -362,7 +364,6 @@ A avaliação é **contínua**, **formativa** e **somativa**, refletindo diferen
 ```
 esaia/
 ├── README.md                          # Este arquivo
-├── PLANEJAMENTO_2026_1.md            # Cronograma detalhado do semestre
 ├── LICENSE                            # Licença do repositório
 │
 ├── docs/                              # Documentação principal
@@ -401,6 +402,7 @@ esaia/
 │
 └── semestres/                         # Histórico de semestres
     └── 2026-1/                        # Semestre atual
+        ├── PLANEJAMENTO_AAAA_S.md     # Cronograma detalhado do semestre (no formato 2026_1)
         ├── equipes/                   # Repositórios das equipes
         ├── palestras/                 # Material das palestras convidadas
         └── retrospectiva/             # Retrospectivas e feedback
@@ -416,7 +418,8 @@ esaia/
 2. **👀 Watch** para receber notificações de mudanças
 3. **📚 Leia** o [Plano de Ensino](./docs/Plano_de_Ensino.md) completo
 4. **⚖️ Assine** o [Código de Conduta](./docs/Codigo_de_Conduta.md) na primeira semana
-5. **📅 Acompanhe** o [Planejamento do Semestre Corrente](./PLANEJAMENTO_2026_1.md) semanalmente
+5. **📅 Acompanhe** o [Planejamento do Semestre Corrente](./semestres
+/2026-1/PLANEJAMENTO_2026_1.md) semanalmente
 6. **💬 Participe** do Discord/Slack da turma
 7. **🔍 Explore** os materiais das aulas antes de cada encontro
 8. **🤝 Colabore** com sua equipe no projeto final
