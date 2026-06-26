@@ -9,7 +9,8 @@
 
 **Projeto final estruturado pela Metodologia Sinfonia**
 
-[⬅️ Voltar ao README da disciplina](../README.md) · [📅 Planejamento](../PLANEJAMENTO.md)
+[⬅️ Voltar ao README da disciplina](../README.md) · [📅 Planejamento](../semestres
+/2026-1/PLANEJAMENTO_2026_1.md)
 
 </div>
 
@@ -137,12 +138,14 @@ A Sinfonia define 14 artefatos concretos que guiam o projeto. Todos devem estar 
 - Repositório com código, testes automatizados e CI/CD em execução
 - Workflow Document atualizado (uso de IA + economicidade das fases anteriores)
 
-### Apresentação Final — Ressonância (Aulas 35–36) · 18 min + 7 min Q&A
+### Entrega Final + Apresentação — Ressonância (Aulas 35–36) · 18 min + 7 min Q&A
 - Painel de Feedback e Insights
 - Análise de métricas e validação de hipóteses
 - Decisão estratégica documentada
 - Canvas de Escalabilidade
 - **Relatório Final** (PDF, com seção de economicidade) + **Workflow Document completo** (anexo) + **sistema funcional** + **repositório completo**
+
+> Na tabela de pesos, a *Entrega Final* (30%) e a *Apresentação Final* (7%) contam como componentes separados.
 
 ---
 
@@ -155,10 +158,11 @@ A Sinfonia define 14 artefatos concretos que guiam o projeto. Todos devem estar 
 | Checkpoint 1 — Exposição | 21 | 10% |
 | Checkpoint 2 — Composição | 26 | 15% |
 | Checkpoint 3 — Ensaio | 32 | 10% |
-| Entrega Final (sistema + relatório + artefatos) | 35–36 | 37% |
+| Entrega Final (sistema + relatório + artefatos) | 29 | 30% |
+| Apresentação Final (demo e defesa) | 35–36 | 7% |
 | Contribuição Individual (peer review + commits) | — | 3% |
 
-> ⚠️ **Nota:** há uma divergência de pesos entre as versões do Plano de Ensino (que separa "Entrega Final 30%" + "Apresentação 7%") e o README/Project Instructions (que consolida "Entrega Final 37%"). **Esta tabela segue a versão consolidada do repositório (37%); confirmar a versão oficial para 2026.1 antes do fechamento das notas.**
+> Soma dos componentes: 10 + 15 + 10 + 30 + 7 + 3 = **75%**.
 
 ### Critérios da entrega final
 
